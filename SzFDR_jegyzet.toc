@@ -1,0 +1,20 @@
+\select@language {magyar} \contentsline {chapter}{\numberline {1}Ismétlés: folytonos dinamikai rendszerek kvalitatív elmélete}{3}{}%
+\select@language {magyar} \contentsline {section}{\numberline {1.1}Egyensúlyi helyzet}{4}{}%
+\select@language {magyar} \contentsline {section}{\numberline {1.2}Stabilitásvesztési formák}{4}{}%
+\select@language {magyar} \contentsline {section}{\numberline {1.3}Periodikus pályák, monodrómia mátrix}{5}{}%
+\select@language {magyar} \contentsline {section}{\numberline {1.4}Bifurkációk}{8}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.4.1}Folytonos dinamikai rendszerek}{8}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.4.2}Leképezések}{9}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {1.4.3}Szakadások osztályozása}{9}{}%
+\select@language {magyar} \contentsline {chapter}{\numberline {2}Filippov rendszerek}{10}{}%
+\select@language {magyar} \contentsline {section}{\numberline {2.1}Példa: Munkahenger pozíciójának csúszómód szabályozása}{12}{}%
+\select@language {magyar} \contentsline {chapter}{\numberline {3}Korrekció a kapcsolófelületen}{16}{}%
+\select@language {magyar} \contentsline {section}{\numberline {3.1}Transzverzális metszés, hibrid dinamikai rendszer}{16}{}%
+\select@language {magyar} \contentsline {section}{\numberline {3.2}Példa}{19}{}%
+\select@language {magyar} \contentsline {section}{\numberline {3.3}Transzverzális metszés, általános eset}{19}{}%
+\select@language {magyar} \contentsline {chapter}{\numberline {4}Periodikus pályák numerikus követése}{22}{}%
+\select@language {magyar} \contentsline {section}{\numberline {4.1}Pszeudo-ívhossz módszer}{22}{}%
+\select@language {magyar} \contentsline {section}{\numberline {4.2}Periodikus pályák peremérték-megfogalmazása}{25}{}%
+\select@language {magyar} \contentsline {section}{\numberline {4.3}Pszeudo-ívhossz módszer alkalmazása periodikus pályák kö\-ve\-té\-sé\-hez}{27}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {4.3.1}Példa 1: tömeg-rugó rendszer}{28}{}%
+\select@language {magyar} \contentsline {subsection}{\numberline {4.3.2}Példa 2: spring loaded inverted pendulom modell}{29}{}%

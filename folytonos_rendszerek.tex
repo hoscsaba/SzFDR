@@ -1,0 +1,221 @@
+%!TEX root = SzFDR_jegyzet.tex
+\chapter{Ismétlés: folytonos dinamikai rendszerek kvalitatív elmélete}
+
+Tekintsük az $\dot{x}=f(x)$ dinamikai rendszert, ahol $x \in \mathcal{D} \subset \mathbb{R}^n$ és $\mathcal{D}$ az értelmezési tartomány. Legyen $\Phi(x,t)$ a megoldásoperátor (flow), amely az $x$ kezdeti értéket a $t$-beli megoldásba viszi át:
+\[
+\frac{\partial}{\partial t} \Phi(x,t)=f(\Phi(x,t)), \quad \Phi(x,0)=x.
+\]
+Vegyük észre, hogy amennyiben $f$ $(r-1)$-szer ($r>1$) differenciálható, $\Phi$ egy fokkal simább.
+
+Amennyiben a differenciálegyenlet rendszer jobb oldala explicit függene az időtől (azaz $f(x,t)$), az időt új váltózóként bevezetve ($x_{N+1}:=t$) autonómmá tehetjük a rendszerünket az $\dot{x}_{N+1}=f_{N+1}(x,t)=1$ egyenlet csatolásával. Ez a "piszkos trükk" azonban sokat nem fog segíteni a későbbi stabilitásvizsgálatkor, mivel ehhez az egyenlethez a Jacobi mátrixban egy olyan sor és oszlop fog tartozni, melynek csak a $\mathrm{Jac}_{N+1,N+1}=1$ eleme lesz nemnulla, így egy további 1-es (neutrális) sajátérték jelenik meg.
+
+Egy \emph{leképezésnek}  a
+\[
+x\mapsto f(x)
+\]
+szabályt nevezzük, ahol $x \in \mathcal{D} \subset \mathbb{R}^n$. A szabályt $m$-szer alkalmazva kapjuk, hogy $\phi^{m}(x_0)=f^{(m)}(x_0)$. Ezeket a rendszereket szokás az ún. pókháló-diagramon ábrázolni, ahol $x_{n+1}$-et $x_n$ függvényében ábrázoljuk.
+
+\emph{Invariáns halmaznak} egy olyan $\Lambda \subset \mathcal{D}$ részhalmazt nevezünk, hogy ha $x_0 \in \Lambda$ akkor $\Phi(x_0,t) \in \Lambda$ minden t-re. Például egyensúlyi helyzet, illetve periodikus pálya, melyek természetesen lehetnek stabilak vagy instabilak.
+
+A dinamikai rendszereink gyakran függeni fognak valamilyen paraméterektől, ezért gyakran írjuk fel ezeket $\dot{x}=f(x,\mu)$ alakban, ahol $\mu \in \mathbb{R}^p$ a paramétervektor.
+
+\section{Egyensúlyi helyzet}
+
+Az $\dot{x}=f(x)$ dinamikai rendszer \emph{egyensúlyi helyzet}ének a $0=f(x^*)$ egyenletet kielégítő $x^*$ pontot (vagy pontokat) nevezzük. Az egyensúlyi helyzet körül sorba fejtve a jobboldalt kapjuk ($x:=x^*+y$), hogy
+\[
+\dot y := \frac{d}{dt} (x-x^*) = f(x^*) +f_x(x^*)y + O(y^2).
+\]
+A differenciálegyenlet jobb oldalának linearizáltját \emph{Jacobinak} nevezzük, $(f_x)_{i,j}=\partial f_i/\partial x_j$.
+
+A Hartman-Grobman tétel értelmében egy hiperbolikus egyensúlyi helyzet közelében a dinamika \emph{lokálisan topologikusan ekvivalens} a linearizált rendszer dinamikájával.
+
+Az egyensúlyi helyzet típusát a Jacobi mátrix $x^*$-hoz tartozó  sajátértékei ($\lambda_1,\lambda_2$) határozzák meg.
+\begin{itemize}
+	\item $\lambda_{1,2}\in \mathbb{R}$, $\lambda_1\lambda_2>0$ esetén $x^*$ csomópont, amely $\lambda_{1,2}>0$ esetén instabil, $\lambda_{1,2}<0$ esetén stabil.
+	\item $\lambda_{1,2}\in \mathbb{R}$, $\lambda_1\lambda_2<0$ esetén $x^*$ nyeregpont (instabilnak tekinthető).
+	\item $\lambda_{1,2}\in \mathbb{C}$ komplex konjugált párok $(\lambda_{1,2}=\alpha\pm i\beta)$ esetén $x^*$ fókusz, amely a valós rész előjelétől függően lehet instabil ($\alpha>0$) vagy stabil ($\alpha<0$). Tisztán képzetes sajátértékek esetén centrumról beszélünk, amely mindig stabil, de nem aszimptotikus értelemben.
+\end{itemize}
+%ábrák!
+Az egyensúlyi helyzetet \emph{hiperbolikus}nak nevezzük, ha a Jacobi mátrix minden sajátértéke nemnulla valós részű, vagyis csomópontról vagy nyeregpontról beszélünk. (Az elnevezés szerencsétlen, nem kell hiperbolikusnak lenniük a trajektóriáknak.)
+
+%\todo[inline]{WR: Stabilitásvesztési formák, saddle-node, Hopf}
+
+\section{Stabilitásvesztési formák}
+
+Alapvetően két esetet különböztetünk meg kétdimenziós rendszerek esetén: nyereg-csomópont bifurkáció, illetve Hopf-bifurkáció. Előbbi esetében a Jacobi mátrix legalább egy valós sajátérték válik pozitívvá, rezgések nem jelennek meg. Míg az utóbbi esetben legalább egy komplex sajátérték pár valós része lesz nagyobb, mint nulla. Ezen belül is előfordulhat lágy, illetve kemény stabilitásvesztést. Előbbi esetében a rezgések amplitúdója folytonosan növekszik a bifurkációt előidéző paraméterrel, míg utóbbinál a rezgés megjelenésénél (és eltűnésénél) az amplitúdó ugrásszerűen jelenik meg (tűnik el).
+%ábrák!
+%összefoglaló ábra
+%\section{Periodikus pályák, monodrómia mátrix [Zajcsuk Lilána - nincs kész]}
+
+\section{Periodikus pályák, monodrómia mátrix}
+
+Tekintsük az $\dot{x}=f(x)$ dinamikai rendszer $x(t)=p(t)$ $T$ periódusú periodikus pályáját, azaz $p(t)=p(t+T)$. A pálya közelében szeretnénk a dinamikát vizsgálni, ezért megkonstruáljuk az ún. \emph{Poincaré metszetet}, amely egy $n-1$ dimenziós $\Pi$ felület, amely tartalmazza az $x_p=x(t^*)$ pontot és transzverzálian metszi a pályát (= nem érinti).
+
+Legyen a Poincaré metszetet definiáló felület: $\Pi = \{x\in\mathbb{R}^n:\pi(x)=0\}$! Ekkor a transzverzalitás feltétele, hogy Poincaré felületre merőleges vektornak ($\pi_x$) $x_p$-ben legyen a trajektória irányába eső vetülete, azaz $\pi_x(x_p) f(x_p)=<\pi_x(x_p), f(x_p)>\neq 0$.
+
+A Poincaré leképezés ezek után, ha $x$ megfelelően közel van $x_p$-hez, a $P(x)=\Phi(x,\tau(x))$ alakban írható, ahol $\tau(x)$-et (a megzavart pálya periódusidejét) a $\pi(\Phi(x,\tau(x)))$ egyenlet definiálja.
+
+% \begin{center}
+% \begin{figure}
+% \includegraphics[width=\textwidth]{Poincare_metszet_kicsi.png}
+% \caption{Poincaré-metszet}
+% \end{figure}
+% \end{center}
+
+A periodikus pálya stabilitását az ún. \emph{monodrómia mátrix} kiszámításával lehet vizsgálni. Vizsgáljuk a
+%
+\begin{equation}
+\dot{x}=A(t)x
+\label{eq:per_lin}
+\end{equation}
+%
+dinamikai rendszert, melyben $A(t)$ periódikus $T$ periódussal. Legyen $X(t)$ \eqref{eq:per_lin} fundamentális megoldás mátrixa, azaz $n$ darab lineárisan független megoldásból képzett mátrix. Ekkor létezik olyan olyan \emph{konstans} $C$ mátrix, melyre $X(t+T)=X(t)C$. Továbbá, ennek kiszámítása egyszerű, hiszen $t=0$-ban $X(T)=X(0)C$, tehát $C=X^{-1}(0)X(T)$. Továbbá, ha $X(0)=I$, akkor $C=X(T)$. A $C$ mátrixot gyakran \emph{monodrómia mátrix}nak nevezzük.
+
+Így az eredeti $\dot{x}=f(x)$ dinamikai rendszer $p(t)$ periódikus pályája körül linearizálva kapjuk az $\dot y =f'(p(t))y$ variációs egyenletet, melynek a \emph{fundamentális megoldását} kell $t=T$ pillanatban kiszámítani, ahol $T$ a periódusidő. Ezt legegyszerűbben úgy tehetjük meg, ha speciális kezdeti feltételekből numerikusan integráljuk az egyenletet:
+\[
+\mathbf{M}=\begin{bmatrix}
+\Phi_p(\mathbf{e}_1,T) & \Phi_p(\mathbf{e}_2,T) & \dots & \Phi(\mathbf{e}_n,T)\\
+\end{bmatrix}
+\]
+ahol $\Phi_p$ a variáció egyenlet fundamentális megoldás operátora, $\mathbf{e}_i$ az i-edik egységvektor. Az $\mathbf{M}$ mátrix egyik sajátértéke mindig 1, ha minden további 1 alatti, akkor a periodikus pálya stabil.
+
+A fundamentális megoldás mátrix írható $\Phi(t+T)=\Phi(t) B$ alakban is, ahol 
+
+\begin{equation}
+det(B)=\exp \left( \int_0^T \mathrm{tr}(A(s)) ds\right).
+\end{equation}
+
+\textbf{Példa.} Tekintsük a következő rendszert: $\dot{r}=r (1-r^2)$ és $\dot{\phi} = 1$. Észrevehető, hogy a $p(t) = \{(r,\phi)=(1,1)$ görbe határciklus, vagy, az $(x,y)$ koordináta-rendszerben $p(t) = \{(x,y)=(\cos t,\sin t):t\in\mathbb{R}\}$.
+
+A sugárra felírt egyenlet linearizáltja a "pálya" körül : $\dot{r}=\left.1-3r^2\right|_{r=1}=-2$, így a megoldás stabil. Ez a számítás azonban egyensúlyi helyzetként határozza meg a pályát.
+
+A pálya vizsgálatához térjünk át derékszögű koordináta rendszerre!
+
+\begin{align}
+x=r\cos \phi& \quad \rightarrow \quad & \dot{x}=\dot{r} \cos \phi-r \sin\phi\, \dot{\phi}=x\left(1-x^2-y^2\right)-y\\
+y=r\sin \phi& \quad \rightarrow \quad & \dot{y}=\dot{r} \sin \phi+r \cos\phi\, \dot{\phi}=y\left(1-x^2-y^2\right)+x
+\end{align}
+
+Itt kihasználtuk, hogy pl. $\dot{r}\cos \phi=r\cos\phi(1-r^2)=x(1-(x^2+y^2))$ ill. $\dot{\phi}=1$. A fenti dinamikai rendszer  általános linearizáltja és annak periódikus pálya közelében vett alakja:
+\begin{equation}
+f'(p(t)) = \left. \begin{pmatrix}
+1-3x^2-y^2 & -1-2xy \\
+1-2xy & 1-x^2-3y^2 \\
+\end{pmatrix} \right|_{p(t)}=
+\begin{pmatrix}
+-2\cos^2t & -1-\sin 2t \\
+1-\sin 2t & -2\sin^2t \\
+\end{pmatrix}
+\end{equation}
+
+Így a perturbációs egyenlet
+
+\begin{equation}
+\dot{z}=\begin{pmatrix}
+1-2\cos^2t & -1-\sin 2t \\
+1-\sin 2t & 1-2\sin^2t \\
+\end{pmatrix} z
+\end{equation}
+
+A monodrómia mátrix determinánsát analitikusan is ki tudjuk számítani:
+
+\begin{align}
+det(B)&=\exp \left( \int_0^T \mathrm{tr}(A(s)) ds\right)=\exp \left( \int_0^T -2\cos^2t-2\sin^2t ds\right)\\
+&=\exp \left( \int_0^T -2 ds\right)=e^{-4\pi}<1.
+\end{align}
+
+A determináns természetesen a sajátértékek (karakterisztikus multiplikátorok) szorzata, ám (periodikus pályáról lévén szó) az egyik sajátérték biztosan 1, mivel pedig itt kétdimenziós rendszerről van szó, a második pontosan a fenti eredmény. A monodrómia mártixot numerikus kiszámítva kapjuk, hogy valóban,
+
+\begin{equation}
+\mathbf{M}=\begin{pmatrix}
+e^{-4\pi} & 0\\ 0 & 1\\
+\end{pmatrix}.
+\end{equation}
+
+Mivel $e^{-4\pi}<1$, $p(t)$ pálya stabil. Az alábbi Matlab kód pontosan ezt a számítást végzi el. A program futásának eredménye: {\tt eig(M)    =+3.471e-06, 9.998e-01; exp(-4*pi)=+3.487e-06}.
+
+\lstinputlisting{codes/Monodromia_mx_pelda.m}
+
+\textbf{Példa\footnote{E. Folkers: Floquet’s Theorem, Bachelor’s Project Mathematics, University of Groningen}.} Tekintsük a következő rendszert:
+%
+\begin{equation}
+\dot{x}=A(t)x=\begin{pmatrix}
+-1 & 1\\
+0 & 1+ \cos t-\frac{\sin t}{2+\cos t}
+\end{pmatrix}x.
+\end{equation}
+
+(Ebben az esetben \emph{nem} egy autonóm rendszer periódikus pályája körüli linearizált rendszert vizsgálunk, hanem egy általános lineáris rendszert periódikus együtthatómátrixszal: $A(t)=A(t+2\pi)$.) A rendszer megoldása:
+%
+\begin{align}
+x_1(t)&=c_2 e^{t+\sin t}+c_3 e^{-t}\\
+x_2(t)&=c_2e^{t+\sin t}\left( 2+\cos t\right).
+\end{align}
+
+Legyen $c_2=c_3=1$, ekkor a fundamentális mátrix:
+%
+\begin{equation}
+X(t)=
+\begin{pmatrix}
+e^{t+\sin t} &  e^{-t}\\
+e^{t+\sin t}\left( 2+\cos t\right) &0
+\end{pmatrix},
+\end{equation}
+
+mivel az általános megoldás $x(t)=c_2 X_1(t)+c_3 X_2(t)$ alakban írható, ahol $X_i$ a fundamentális mátrix $i$-edik sorát jelenti. A monodrómia mátrix:
+%
+\begin{eqnarray}
+C&=X^{-1}(0) X(T)=
+\begin{pmatrix}1&1\\ 3&0\end{pmatrix}^{-1}
+\begin{pmatrix}
+e^{2 \pi} &  e^{-2\pi}\\
+e^{2\pi}\left( 2-1\right) &0
+\end{pmatrix}
+=\\
+&=
+\begin{pmatrix}0&1/3\\ 1&-1/3\end{pmatrix}
+\begin{pmatrix}
+e^{2 \pi} &  e^{-2\pi}\\
+e^{2\pi} &0
+\end{pmatrix}
+=\frac{1}{3}
+\begin{pmatrix}
+e^{2 \pi} &0 \\
+2 e^{2 \pi}& 3 e^{-2 \pi}
+\end{pmatrix}
+\end{eqnarray}
+
+A fenti mátrx sajátértékei $\lambda_1=e^{2 \pi}/3\approx178,5$ és $\lambda_1=e^{-2 \pi}0.00187$, így a megoldások instabilak.
+
+\section{Bifurkációk}
+
+\subsection{Folytonos dinamikai rendszerek}
+
+Tekintsük újra a parametrizált megoldást, $x(\mu)$-t! Ez a görbe implicit alakban is meg lehet adva: $G(x,\mu)=0$. Bifurkációnak nevezzük azt a $\mu_0$ pontot, ahol az Implicit Függvény Tétel érvényét veszíti:
+
+\emph{Implicit Függvény Tétel}: tfh. valamilyen $\mu=\mu_0$ pontban létezik egy $x=x_0$ megoldása a (sima) $G(x,\mu)=0$ egyenletnek, ahol $G: \mathbb{R}^n\times\mathbb{R}\rightarrow\mathbb{R}^n$. Ekkor, feltéve, hogy $G_x(x_0,\mu_0)$ nem szinguláris, létezik (lokálisan) egy sima $x(\mu)$ függvény úgy, hogy $x(\mu_0)=x_0$.
+
+Vegyük észre, hogy ha nem is tudjuk explicit módon kifejezni $x(\mu)$-t zárt alakban, elegendő bizonyítani, hogy $G_x(x_0,\mu_0)$ nem szinguláris és akkor létezik a fenti görbe. Például legyen $G(x,\mu)=x^2+\mu^2-1$, azaz az egyséfkör. Természetesen az $x(\mu)$ függvény nem fejezhető ki zárt alakban a $-1\leq \mu \leq 1$ tartományban, hiszen két ilyen függvény is van: $x_{1,2}(\mu)=\pm\sqrt{1-\mu^2}$. Az IFT célja az, hogy ezen függvények \emph{létezéséről} adjon információt még akkor is, ha ezeket nem tudjuk explicit módon kifejezni, sőt, biztosítja, hogy az $x(\mu)$ függvény differenciálható. Megfordítva, ha $G_x(x_0,\mu_0)$ szinguláris és az IFT feltételei teljesülnek, "valami érdekes történik".
+
+Dinamikai rendszerek esetében $G(x,\mu)$ lehet például
+\begin{itemize}
+	\item $G(x,\mu)=f(x,\mu)$ - egyensúlyi helyzet bifurkációja.
+	\item $G(x,\mu)=\mathrm{max}(\Re(\lambda_i))$ - egy bifurkációs vonal (lineáris stabilitás határa).
+\end{itemize}
+
+\subsection{Leképezések}
+
+\subsection{Szakadások osztályozása}
+Legyen $x \in \mathcal{D} \subset \mathbb{R}$, $f: \mathcal{D} \rightarrow \mathbb{R}$ adott függvény és $x_0 \in \mathcal{D}$. Az $f$ függvény folytonos az $x_0$-ban, ha $f$-nek létezik határértéke $x_0$-ban és az megegyezik a függvény helyettesítési értékével, azaz
+\[
+\lim_{x\to\ x_0 } f(x)=f(x_0).
+\]
+Ha az $f$ függvény a $\mathcal{D}$ halmaz minden pontjában folytonos, akkor$f$ folytonos függvény.
+Ha az f függvény az értelmezési tartományának valamely pontjában nem folytonos, akkor a függvénynek ott szakadási helye van.
+\begin{itemize}
+	\item Az $ f$ függvénynek $x_0$-ban elsőfajú szakadása van, ha $x_0$-ban létezik a jobb-, illetve baloldali véges határértéke.
+	\item Ha a jobb-, illetve baloldali véges határérték megegyezik, akkor ez a szakadás megszüntethető.
+	\item A függvény szakadási helye másodfajú, ha nem elsőfajú.
+\end{itemize}
+
+\clearpage

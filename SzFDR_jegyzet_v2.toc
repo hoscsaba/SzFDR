@@ -1,0 +1,30 @@
+\select@language {magyar} \contentsline {chapter}{\numberline {1}Ism\IeC {\'e}tl\IeC {\'e}s: folytonos dinamikai rendszerek kvalitat\IeC {\'\i }v elm\IeC {\'e}lete}{3}% 
+\select@language {magyar} \contentsline {section}{\numberline {1.1}Egyens\IeC {\'u}lyi helyzet}{4}% 
+\select@language {magyar} \contentsline {section}{\numberline {1.2}Stabilit\IeC {\'a}sveszt\IeC {\'e}si form\IeC {\'a}k}{4}% 
+\select@language {magyar} \contentsline {section}{\numberline {1.3}Periodikus p\IeC {\'a}ly\IeC {\'a}k, monodr\IeC {\'o}mia m\IeC {\'a}trix [Zajcsuk Lil\IeC {\'a}na - nincs k\IeC {\'e}sz]}{5}% 
+\select@language {magyar} \contentsline {section}{\numberline {1.4}Bifurk\IeC {\'a}ci\IeC {\'o}k}{6}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {1.4.1}Folytonos dinamikai rendszerek}{6}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {1.4.2}Lek\IeC {\'e}pez\IeC {\'e}sek}{6}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {1.4.3}Szakad\IeC {\'a}sok oszt\IeC {\'a}lyoz\IeC {\'a}sa}{6}% 
+\select@language {magyar} \contentsline {chapter}{\numberline {2}Filippov rendszerek [Horv\IeC {\'a}th Hanna Zs\IeC {\'o}fia - nincs k\IeC {\'e}sz]}{8}% 
+\select@language {magyar} \contentsline {section}{\numberline {2.1}P\IeC {\'e}lda: Munkahenger poz\IeC {\'\i }ci\IeC {\'o}j\IeC {\'a}nak cs\IeC {\'u}sz\IeC {\'o}m\IeC {\'o}d szab\IeC {\'a}lyoz\IeC {\'a}sa}{10}% 
+\select@language {magyar} \contentsline {chapter}{\numberline {3}Korrekci\IeC {\'o} a kapcsol\IeC {\'o}fel\IeC {\"u}leten}{14}% 
+\select@language {magyar} \contentsline {section}{\numberline {3.1}Transzverz\IeC {\'a}lis metsz\IeC {\'e}s, hibrid dinamikai rendszer [K\IeC {\'a}d\IeC {\'a}r Fanni - nincs k\IeC {\'e}sz]}{14}% 
+\select@language {magyar} \contentsline {section}{\numberline {3.2}P\IeC {\'e}lda}{17}% 
+\select@language {magyar} \contentsline {section}{\numberline {3.3}Transzverz\IeC {\'a}lis metsz\IeC {\'e}s, \IeC {\'a}ltal\IeC {\'a}nos eset}{18}% 
+\select@language {magyar} \contentsline {section}{\numberline {3.4}Nem-transzverz\IeC {\'a}lis metsz\IeC {\'e}s: Grazing [Zsiros \IeC {\'A}d\IeC {\'a}m, impakt oscill\IeC {\'a}tor - nincs k\IeC {\'e}sz]}{20}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {3.4.1}1DoF impakt oszcill\IeC {\'a}tor}{20}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {3.4.2}\IeC {\"U}tk\IeC {\"o}z\IeC {\'e}s n\IeC {\'e}lk\IeC {\"u}li eset -- monodr\IeC {\'o}mia m\IeC {\'a}trix}{23}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {3.4.3}\IeC {\"U}tk\IeC {\"o}z\IeC {\'e}ses eset -- korrekci\IeC {\'o}s m\IeC {\'a}trix}{24}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {3.4.4}Lineariz\IeC {\'a}l\IeC {\'a}s}{25}% 
+\select@language {magyar} \contentsline {section}{\numberline {3.5}Grazing}{25}% 
+\select@language {magyar} \contentsline {section}{\numberline {3.6}Fixpont}{26}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {3.6.1}A "square root" lek\IeC {\'e}pez\IeC {\'e}s}{26}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {3.6.2}K\IeC {\'o}dok -- 1.}{29}% 
+\select@language {magyar} \contentsline {chapter}{\numberline {4}Periodikus p\IeC {\'a}ly\IeC {\'a}k numerikus k\IeC {\"o}vet\IeC {\'e}se (Patk\IeC {\'o} D\IeC {\'o}ra)}{33}% 
+\select@language {magyar} \contentsline {section}{\numberline {4.1}Pszeudo-\IeC {\'\i }vhossz m\IeC {\'o}dszer}{33}% 
+\select@language {magyar} \contentsline {section}{\numberline {4.2}Periodikus p\IeC {\'a}ly\IeC {\'a}k perem\IeC {\'e}rt\IeC {\'e}k-megfogalmaz\IeC {\'a}sa}{36}% 
+\select@language {magyar} \contentsline {section}{\numberline {4.3}Pszeudo-\IeC {\'\i }vhossz m\IeC {\'o}dszer alkalmaz\IeC {\'a}sa periodikus p\IeC {\'a}ly\IeC {\'a}k k\IeC {\"o}\-ve\-t\IeC {\'e}\-s\IeC {\'e}\-hez}{39}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {4.3.1}P\IeC {\'e}lda 1: t\IeC {\"o}meg-rug\IeC {\'o} rendszer}{39}% 
+\select@language {magyar} \contentsline {subsection}{\numberline {4.3.2}P\IeC {\'e}lda 2: spring loaded inverted pendulom modell}{40}% 
+\select@language {magyar} \contentsline {chapter}{\numberline {5}Square-root lek\IeC {\'e}pez\IeC {\'e}s (Zsiros \IeC {\'A}d\IeC {\'a}m)}{47}% 

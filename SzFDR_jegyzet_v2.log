@@ -1,0 +1,1362 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019) (preloaded format=pdflatex 2019.7.14)  25 JAN 2021 16:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**SzFDR_jegyzet_v2.tex
+(./SzFDR_jegyzet_v2.tex
+LaTeX2e <2018-12-01>
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/05/04 3.31 The Babel package
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/05/04 3.31 Babel switching mechanism
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel-hungarian/magyar.ldf
+Language: magyar 2019/01/14 v1.5c Magyar (Hungarian) support for babel
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/05/04 3.31 Babel common definitions
+\babel@savecnt=\count89
+\U@D=\dimen103
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/babel/txtbabel.def)
+\bbl@dirlevel=\count90
+)
+Package babel Info: Making ` an active character on input line 2819.
+\c@footnote@add=\count91
+\c@footnote@ch=\count92
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip43
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks17
+\ex@=\dimen106
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen107
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count93
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count94
+\leftroot@=\count95
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count96
+\DOTSCASE@=\count97
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen108
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count98
+\c@MaxMatrixCols=\count99
+\dotsspace@=\muskip10
+\c@parentequation=\count100
+\dspbrk@lvl=\count101
+\tag@help=\toks18
+\row@=\count102
+\column@=\count103
+\maxfields@=\count104
+\andhelp@=\toks19
+\eqnshift@=\dimen109
+\alignsep@=\dimen110
+\tagshift@=\dimen111
+\tagwidth@=\dimen112
+\totwidth@=\dimen113
+\lineht@=\dimen114
+\@envbody=\toks20
+\multlinegap=\skip44
+\multlinetaggap=\skip45
+\mathdisplay@stack=\toks21
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen115
+\WF@size=\dimen116
+\c@WF@wrappedlines=\count105
+\WF@box=\box29
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen117
+\captionmargin@=\dimen118
+\captionwidth=\dimen119
+\caption@tempdima=\dimen120
+\caption@indent=\dimen121
+\caption@parindent=\dimen122
+\caption@hangindent=\dimen123
+Package caption Info: magyar babel option is loaded.
+)
+\c@caption@flags=\count106
+\c@ContinuedFloat=\count107
+Package caption Info: magyar babel option is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@subfigure=\count108
+\c@subtable=\count109
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/10/05 v1.2f UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+))
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+)
+(./todonotes.sty
+Package: todonotes 2012/07/25 .dtx Todonotes source and documentation.
+Package: todonotes 2012/07/25
+ (/usr/local/texlive/2019/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks23
+\XKV@tempa@toks=\toks24
+)
+\XKV@depth=\count110
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks25
+\pgfutil@tempdima=\dimen124
+\pgfutil@tempdimb=\dimen125
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-li
+sts.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box30
+(/usr/local/texlive/2019/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/04/04 v3.1.2 (3.1.2)
+))
+Package: pgf 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/04/04 v3.1.2 (3.1.2)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks26
+\pgfkeys@temptoks=\toks27
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.c
+ode.tex
+\pgfkeys@tmptoks=\toks28
+))
+\pgf@x=\dimen126
+\pgf@y=\dimen127
+\pgf@xa=\dimen128
+\pgf@ya=\dimen129
+\pgf@xb=\dimen130
+\pgf@yb=\dimen131
+\pgf@xc=\dimen132
+\pgf@yc=\dimen133
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count111
+\c@pgf@countb=\count112
+\c@pgf@countc=\count113
+\c@pgf@countd=\count114
+\t@pgf@toka=\toks29
+\t@pgf@tokb=\toks30
+\t@pgf@tokc=\toks31
+\pgf@sys@id@count=\count115
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/04/04 v3.1.2 (3.1.2)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2019/04/04 v3.1.2 (3.1.2)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfsyssoftpath@smallbuffer@items=\count116
+\pgfsyssoftpath@bigbuffer@items=\count117
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2019/04/04 v3.1.2 (3.1.2)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/04/04 v3.1.2 (3.1.2)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen134
+\pgfmath@count=\count118
+\pgfmath@box=\box31
+\pgfmath@toks=\toks32
+\pgfmath@stack@operand=\toks33
+\pgfmath@stack@operation=\toks34
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count119
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@picminx=\dimen135
+\pgf@picmaxx=\dimen136
+\pgf@picminy=\dimen137
+\pgf@picmaxy=\dimen138
+\pgf@pathminx=\dimen139
+\pgf@pathmaxx=\dimen140
+\pgf@pathminy=\dimen141
+\pgf@pathmaxy=\dimen142
+\pgf@xx=\dimen143
+\pgf@xy=\dimen144
+\pgf@yx=\dimen145
+\pgf@yy=\dimen146
+\pgf@zx=\dimen147
+\pgf@zy=\dimen148
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@path@lastx=\dimen149
+\pgf@path@lasty=\dimen150
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@shorten@end@additional=\dimen151
+\pgf@shorten@start@additional=\dimen152
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfpic=\box32
+\pgf@hbox=\box33
+\pgf@layerbox@main=\box34
+\pgf@picture@serial@count=\count120
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgflinewidth=\dimen153
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@pt@x=\dimen154
+\pgf@pt@y=\dimen155
+\pgf@pt@temp=\dimen156
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfarrowsep=\dimen157
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@max=\dimen158
+\pgf@sys@shading@range@num=\count121
+\pgf@shadingcount=\count122
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfexternal@startupbox=\box35
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfnodeparttextbox=\box36
+)
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2019/04/04 v3.1.2 (3.1.2)
+\pgf@nodesepstart=\dimen159
+\pgf@nodesepend=\dimen160
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2019/04/04 v3.1.2 (3.1.2)
+))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen161
+\pgffor@skip=\dimen162
+\pgffor@stack=\toks35
+\pgffor@toks=\toks36
+))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2019/04/04 v3.1.2 (3.1.2)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgf@plot@mark@count=\count123
+\pgfplotmarksize=\dimen163
+)
+\tikz@lastx=\dimen164
+\tikz@lasty=\dimen165
+\tikz@lastxsaved=\dimen166
+\tikz@lastysaved=\dimen167
+\tikzleveldistance=\dimen168
+\tikzsiblingdistance=\dimen169
+\tikz@figbox=\box37
+\tikz@figbox@bg=\box38
+\tikz@tempbox=\box39
+\tikz@tempbox@bg=\box40
+\tikztreelevel=\count124
+\tikznumberofchildren=\count125
+\tikznumberofcurrentchild=\count126
+\tikz@fig@count=\count127
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2019/04/04 v3.1.2 (3.1.2)
+\pgfmatrixcurrentrow=\count128
+\pgfmatrixcurrentcolumn=\count129
+\pgf@matrix@numberofcolumns=\count130
+)
+\tikz@expandcount=\count131
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2019/04/04 v3.1.2 (3.1.2)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count132
+\calc@Bcount=\count133
+\calc@Adimen=\dimen170
+\calc@Bdimen=\dimen171
+\calc@Askip=\skip46
+\calc@Bskip=\skip47
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count134
+\calc@Cskip=\skip48
+)
+\c@@todonotes@numberoftodonotes=\count135
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count136
+\lst@gtempboxa=\box41
+\lst@token=\toks37
+\lst@length=\count137
+\lst@currlwidth=\dimen172
+\lst@column=\count138
+\lst@pos=\count139
+\lst@lostspace=\dimen173
+\lst@width=\dimen174
+\lst@newlines=\count140
+\lst@lineno=\count141
+\lst@maxwidth=\dimen175
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count142
+\lst@skipnumbers=\count143
+\lst@framebox=\box42
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+)
+(./SzFDR_jegyzet_v2.aux)
+\openout1 = `SzFDR_jegyzet_v2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 54.
+LaTeX Font Info:    ... okay on input line 54.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 54.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 54.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 54.
+
+
+LaTeX Warning: Please use \usepackage{t1enc} with
+               \usepackage[magyar]{babel}, to get accented chars hyphenated.
+
+(/usr/local/texlive/2019/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count144
+\scratchdimen=\dimen176
+\scratchbox=\box43
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks38
+\MPscratchCnt=\count147
+\MPscratchDim=\dimen177
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks39
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+))))
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros
+\c@lstlisting=\count150
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/report.cls
+LaTeX Info: Redefining \cal on input line 576.
+LaTeX Info: Redefining \mit on input line 577.
+)
+LaTeX Font Info:    Try loading font information for U+msa on input line 55.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 55.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+
+{/usr/local/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+(./SzFDR_jegyzet_v2.toc
+Overfull \hbox (2.05023pt too wide) in paragraph at lines 4--4
+ [][] []\OT1/cmr/m/n/10.95 Periodikus p^^Saly^^Sak, mo-nodr^^Somia m^^Satrix [Z
+aj-csuk Lil^^Sana - nincs 
+ []
+
+
+Overfull \hbox (0.59013pt too wide) in paragraph at lines 12--12
+ [][] []\OT1/cmr/m/n/10.95 Transzverz^^Salis metsz^^Ses, hib-rid di-na-mi-kai r
+end-szer [K^^Sad^^Sar Fan- 
+ []
+
+[1
+
+])
+\tf@toc=\write4
+\openout4 = `SzFDR_jegyzet_v2.toc'.
+
+ [2] (./folytonos_rendszerek.tex
+1. fejezet.
+[3
+
+
+]
+Overfull \hbox (18.2581pt too wide) in paragraph at lines 19--20
+[]\OT1/cmr/m/n/10.95 A di-na-mi-kai rend-sze-re-ink gyak-ran f^^?ugge-ni fog-na
+k va-la-mi-lyen pa-ram^^Seterekt}ol,
+ []
+
+
+Overfull \hbox (18.02715pt too wide) in paragraph at lines 26--28
+\OT1/cmr/m/n/10.95 A dif-fe-ren-ci^^Salegyenlet jobb ol-dal^^Sanak li-neariz^^S
+altj^^Sat \OT1/cmr/m/it/10.95 Ja-co-bi-nak \OT1/cmr/m/n/10.95 ne-vezz^^?uk, $(\
+OML/cmm/m/it/10.95 f[]\OT1/cmr/m/n/10.95 )[] =
+ []
+
+[4]
+Overfull \hbox (15.17453pt too wide) in paragraph at lines 51--52
+\OT1/cmr/m/n/10.95 nak ($\OML/cmm/m/it/10.95 ^^Y[]$\OT1/cmr/m/n/10.95 ) $\OML/c
+mm/m/it/10.95 x[]$\OT1/cmr/m/n/10.95 -ben le-gyen a tra-jekt^^Soria ir^^Sany^^S
+aba es}o vet^^?ule-te, az-az $\OML/cmm/m/it/10.95 ^^Y[]\OT1/cmr/m/n/10.95 (\OML
+/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )\OML/cmm/m/it/10.95 f\OT1/cmr/m/n/10.95 
+(\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ) =\OML/cmm/m/it/10.95 <
+ []
+
+
+Overfull \hbox (1.77808pt too wide) in paragraph at lines 62--63
+[]\OT1/cmr/m/n/10.95 A pe-ri-o-di-kus p^^Salya sta-bi-lit^^Sas^^Sat az ^^Sun. \
+OT1/cmr/m/it/10.95 mo-nodr^^Somia m^^Satrix \OT1/cmr/m/n/10.95 kisz^^Sam^^S^^Pt
+^^Sas^^Saval
+ []
+
+
+Overfull \hbox (10.44098pt too wide) detected at line 80
+\OML/cmm/m/it/10.95 f[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 p\OT1/cmr/m/n/10
+.95 (\OML/cmm/m/it/10.95 t\OT1/cmr/m/n/10.95 )) = [] = []
+ []
+
+[5]
+Overfull \hbox (7.31943pt too wide) in paragraph at lines 102--103
+[]\OT1/cmr/m/n/10.95 Megjegyz^^Ses: ha nem is tu-dom ki-fe-jez-ni $\OML/cmm/m/i
+t/10.95 x\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^V\OT1/cmr/m/n/10.95 )$-t z^^
+Sart alak-ban (pl. egys^^Segk^^?or),
+ []
+
+[6] [7]) (./Filippov_rendszerek.tex
+2. fejezet.
+<graphics/discontinuity_surface_fancy.png, id=46, 1037.7972pt x 1040.2062pt>
+File: graphics/discontinuity_surface_fancy.png Graphic file (type png)
+<use graphics/discontinuity_surface_fancy.png>
+Package pdftex.def Info: graphics/discontinuity_surface_fancy.png  used on inpu
+t line 30.
+(pdftex.def)             Requested size: 180.0pt x 180.41985pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<graphics/sliding_region_fancy.png, id=48, 3183.7344pt x 1247.862pt>
+File: graphics/sliding_region_fancy.png Graphic file (type png)
+<use graphics/sliding_region_fancy.png>
+Package pdftex.def Info: graphics/sliding_region_fancy.png  used on input line 
+50.
+(pdftex.def)             Requested size: 360.0pt x 141.09244pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8
+
+
+] [9 <./graphics/discontinuity_surface_fancy.png> <./graphics/sliding_region_fa
+ncy.png>]
+Overfull \hbox (21.32289pt too wide) in paragraph at lines 83--84
+\OT1/cmr/m/n/10.95 cs^^Susz^^Som^^Sod szab^^Salyoz^^Sas^^Sara mu-tat p^^Seld^^S
+at. A hid-ra-u-li-kus t^^Sapegys^^Seg (nyom^^Sasforr^^Sas)
+ []
+
+<graphics/munkahenger_fancy.png, id=57, 299.4387pt x 264.7491pt>
+File: graphics/munkahenger_fancy.png Graphic file (type png)
+<use graphics/munkahenger_fancy.png>
+Package pdftex.def Info: graphics/munkahenger_fancy.png  used on input line 87.
+
+(pdftex.def)             Requested size: 180.0pt x 159.14557pt.
+
+Overfull \hbox (9.13304pt too wide) in paragraph at lines 92--94
+[]\OT1/cmr/m/n/10.95 A du-gatty^^Su mozg^^Sas^^Sat az al^^Sabbi m^^Sasodrend}u 
+dif-fe-ren-ci^^Salegyenlettel ^^S^^Prhatjuk
+ []
+
+[10 <./graphics/munkahenger_fancy.png>]
+Overfull \hbox (8.07137pt too wide) in paragraph at lines 175--178
+\OT1/cmr/m/n/10.95 A k^^Set vek-tor-mez}ot, a kap-csol^^Sofel^^?ule-tet ^^Ses a
+ cs^^Susz^^So r^^Segi^^Sot szeml^^Selteti a 2.4[]. ^^Sabra. 
+ []
+
+<graphics/sliding_region_PELDA.png, id=62, 1240.635pt x 333.49594pt>
+File: graphics/sliding_region_PELDA.png Graphic file (type png)
+<use graphics/sliding_region_PELDA.png>
+Package pdftex.def Info: graphics/sliding_region_PELDA.png  used on input line 
+181.
+(pdftex.def)             Requested size: 360.0pt x 96.76732pt.
+[11]
+<graphics/sliding_mode_control.png, id=66, 1133.73563pt x 526.96875pt>
+File: graphics/sliding_mode_control.png Graphic file (type png)
+<use graphics/sliding_mode_control.png>
+Package pdftex.def Info: graphics/sliding_mode_control.png  used on input line 
+256.
+(pdftex.def)             Requested size: 360.0pt x 167.33081pt.
+
+Overfull \hbox (15.76802pt too wide) in paragraph at lines 241--260
+\OT1/cmr/m/n/10.95 0\OML/cmm/m/it/10.95 :\OT1/cmr/m/n/10.95 2$ m/s kez-de-ti fe
+lt^^Setelekkel ind^^S^^Ptva a szi-mul^^Saci^^Sot, a kap-csol^^Sofel^^?ule-ten ^
+^Sathaladva,
+ []
+
+[12 <./graphics/sliding_region_PELDA.png>] [13 <./graphics/sliding_mode_control
+.png>]) (./korrekcio_a_kapcsolofeluleten.tex
+3. fejezet.
+<graphics/korrKapcs1.png, id=77, 219.33945pt x 170.91855pt>
+File: graphics/korrKapcs1.png Graphic file (type png)
+<use graphics/korrKapcs1.png>
+Package pdftex.def Info: graphics/korrKapcs1.png  used on input line 39.
+(pdftex.def)             Requested size: 180.0pt x 140.26884pt.
+[14
+
+
+]
+
+LaTeX Warning: Command \textvisiblespace invalid in math mode on input line 59.
+
+
+
+Overfull \hbox (30.08301pt too wide) detected at line 60
+\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^N\OT1/cmr/m/n/10
+.95 ) = \OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 + ^^A\OML/cmm/m/it/10.95 x \
+OT1/cmr/m/n/10.95 + [] +\OMS/cmsy/m/n/10.95 O\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/
+10.95 ^^N[]\OT1/cmr/m/n/10.95 ) = \OML/cmm/m/it/10.95 x[] \OT1/cmr/m/n/10.95 + 
+^^A\OML/cmm/m/it/10.95 x \OT1/cmr/m/n/10.95 + \OML/cmm/m/it/10.95 ^^NF\OT1/cmr/
+m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 ) + \OMS/cmsy/m/n/10.95 O\
+OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 ^^N[]; ^^N \OT1/cmr/m/n/10.95 ^^A\OML/cm
+m/m/it/10.95 x; \OT1/cmr/m/n/10.95 ^^A\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95
+ )
+ []
+
+[15 <./graphics/korrKapcs1.png>]
+Overfull \hbox (21.08232pt too wide) detected at line 93
+ []$[]   [][] \OT1/cmr/m/n/10.95 = [] \OMS/cmsy/m/n/10.95 ^^@\OML/cmm/m/it/10.9
+5 ^^NF []\OT1/cmr/m/n/10.95 ) + \OMS/cmsy/m/n/10.95 O\OT1/cmr/m/n/10.95 (2) =$ 
+
+ []
+
+
+Overfull \hbox (0.92499pt too wide) in paragraph at lines 106--109
+[]\OT1/cmr/m/n/10.95 Ebb}ol a 3.15[] egyen-let-ben sze-repl}o $\OML/cmm/m/it/10
+.95 Q[]\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x[]\OT1/cmr/m/n/10.95 )$ m^^Satr
+ix meg-hat^^Sarozhat^^So $^^A\OML/cmm/m/it/10.95 x$ \OT1/cmr/m/n/10.95 egy^^?ut
+t-
+ []
+
+[16]
+Overfull \hbox (81.9178pt too wide) in paragraph at lines 148--237
+[]\OT1/cmr/m/n/10.95 Ezekkel: $\OML/cmm/m/it/10.95 Q[] \OT1/cmr/m/n/10.95 = [] 
++ [] [] [] =
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 148--237
+\OT1/cmr/m/n/10.95 = [] + [] [] = []$
+ []
+
+[17]
+<graphics/5_1.png, id=92, 119.53458pt x 105.65874pt>
+File: graphics/5_1.png Graphic file (type png)
+<use graphics/5_1.png>
+Package pdftex.def Info: graphics/5_1.png  used on input line 254.
+(pdftex.def)             Requested size: 126.0022pt x 111.377pt.
+
+Underfull \hbox (badness 1558) in paragraph at lines 258--259
+[][]\OT1/cmr/m/n/10.95 ahol $\OML/cmm/m/it/10.95 x \OMS/cmsy/m/n/10.95 ! \OML/c
+mm/m/it/10.95 R\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )\OM
+L/cmm/m/it/10.95 ;  [] H\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/1
+0.95 ) = 0\OML/cmm/m/it/10.95 :$
+ []
+
+
+Underfull \hbox (badness 1102) in paragraph at lines 258--259
+\OT1/cmr/m/n/10.95 Tov^^Sabb^^Sa $\OML/cmm/m/it/10.95 R\OT1/cmr/m/n/10.95 (\OML
+/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )$-nek nem k^^?ote-lez}o a kap-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
+
+ []
+
+
+Underfull \hbox (badness 1292) in paragraph at lines 260--267
+[]\OT1/cmr/m/n/10.95 A $\OML/cmm/m/it/10.95 Q\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/
+10.95 x\OT1/cmr/m/n/10.95 )$ kor-rek-ci^^Sos lek^^Sepez^^Ses alatt a
+ []
+
+<graphics/5_2.png, id=93, 217.96632pt x 240.22548pt>
+File: graphics/5_2.png Graphic file (type png)
+<use graphics/5_2.png>
+Package pdftex.def Info: graphics/5_2.png  used on input line 270.
+(pdftex.def)             Requested size: 143.9978pt x 158.71059pt.
+[18 <./graphics/5_1.png (PNG copy)> <./graphics/5_2.png (PNG copy)>]
+<graphics/5_3.png, id=98, 127.62881pt x 109.70586pt>
+File: graphics/5_3.png Graphic file (type png)
+<use graphics/5_3.png>
+Package pdftex.def Info: graphics/5_3.png  used on input line 302.
+(pdftex.def)             Requested size: 143.9978pt x 123.77867pt.
+ [19
+
+ <./graphics/5_3.png (PNG copy)>]) (./korrekcio_a_kapcsolofeluleten2.tex
+Overfull \hbox (2.0944pt too wide) in paragraph at lines 16--18
+\OT1/cmr/m/n/10.95 lek^^Sepez^^Ses ^^Saltal ki-jel^^?olt m^^Sodon. $\OML/cmm/m/
+it/10.95 H\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 x\OT1/cmr/m/n/10.95 )$ a kap-
+csol^^Sovonal egyen-le-te, $\OML/cmm/m/it/10.95 x[]$ \OT1/cmr/m/n/10.95 az ^^?u
+tk^^?oz^^Ses
+ []
+
+[20
+
+] [21]
+
+LaTeX Warning: Reference `eq:Qxmatrix' on page 22 undefined on input line 123.
+
+
+Overfull \hbox (41.39911pt too wide) in paragraph at lines 157--158
+\OT1/cmr/m/n/10.95 eset^^Sere a 3.5[]. ^^Sabra szeml^^Selteti, a nu-me-ri-ku-sa
+n meg-hat^^Sarozott el-moz-dul^^Sasf^^?uggv^^Senyeket
+ []
+
+<graphics/uv_w3_r095_omega0_ksi0.png, id=108, 421.575pt x 316.18124pt>
+File: graphics/uv_w3_r095_omega0_ksi0.png Graphic file (type png)
+<use graphics/uv_w3_r095_omega0_ksi0.png>
+Package pdftex.def Info: graphics/uv_w3_r095_omega0_ksi0.png  used on input lin
+e 164.
+(pdftex.def)             Requested size: 111.59912pt x 83.69595pt.
+<graphics/uv_w276_r095_omega0_ksi0.png, id=109, 421.575pt x 316.18124pt>
+File: graphics/uv_w276_r095_omega0_ksi0.png Graphic file (type png)
+<use graphics/uv_w276_r095_omega0_ksi0.png>
+Package pdftex.def Info: graphics/uv_w276_r095_omega0_ksi0.png  used on input l
+ine 170.
+(pdftex.def)             Requested size: 111.59912pt x 83.69595pt.
+<graphics/uv_w29_r095_omega0_ksi0.png, id=110, 421.575pt x 316.18124pt>
+File: graphics/uv_w29_r095_omega0_ksi0.png Graphic file (type png)
+<use graphics/uv_w29_r095_omega0_ksi0.png>
+Package pdftex.def Info: graphics/uv_w29_r095_omega0_ksi0.png  used on input li
+ne 176.
+(pdftex.def)             Requested size: 111.59912pt x 83.69595pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<graphics/ut_w3_r095_omega0_ksi0.png, id=111, 421.575pt x 316.18124pt>
+File: graphics/ut_w3_r095_omega0_ksi0.png Graphic file (type png)
+<use graphics/ut_w3_r095_omega0_ksi0.png>
+Package pdftex.def Info: graphics/ut_w3_r095_omega0_ksi0.png  used on input lin
+e 187.
+(pdftex.def)             Requested size: 111.59912pt x 83.69595pt.
+<graphics/ut_w276_r095_omega0_ksi0.png, id=112, 421.575pt x 316.18124pt>
+File: graphics/ut_w276_r095_omega0_ksi0.png Graphic file (type png)
+<use graphics/ut_w276_r095_omega0_ksi0.png>
+Package pdftex.def Info: graphics/ut_w276_r095_omega0_ksi0.png  used on input l
+ine 193.
+(pdftex.def)             Requested size: 111.59912pt x 83.69595pt.
+<graphics/ut_w29_r095_omega0_ksi0.png, id=113, 421.575pt x 316.18124pt>
+File: graphics/ut_w29_r095_omega0_ksi0.png Graphic file (type png)
+<use graphics/ut_w29_r095_omega0_ksi0.png>
+Package pdftex.def Info: graphics/ut_w29_r095_omega0_ksi0.png  used on input li
+ne 199.
+(pdftex.def)             Requested size: 111.59912pt x 83.69595pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22]
+Overfull \hbox (31.36911pt too wide) in paragraph at lines 227--229
+\OT1/cmr/m/n/10.95 egyenletnek. Te-kints^^?uk az al^^Sabbi per-turb^^Salt meg-o
+ld^^Sast: $[]$.
+ []
+
+[23 <./graphics/uv_w3_r095_omega0_ksi0.png (PNG copy)> <./graphics/uv_w276_r095
+_omega0_ksi0.png (PNG copy)> <./graphics/uv_w29_r095_omega0_ksi0.png (PNG copy)
+> <./graphics/ut_w3_r095_omega0_ksi0.png (PNG copy)> <./graphics/ut_w276_r095_o
+mega0_ksi0.png (PNG copy)> <./graphics/ut_w29_r095_omega0_ksi0.png (PNG copy)>]
+[24] [25]
+Overfull \hbox (3.39082pt too wide) in paragraph at lines 380--381
+\OT1/cmr/m/n/10.95 rendszert kap-juk, ahol azt, hogy $\OML/cmm/m/it/10.95 z$ \O
+T1/cmr/m/n/10.95 k^^Sepe ^^?utk^^?ozik-e vagy nem, a $\OML/cmm/m/it/10.95 H \OT
+1/cmr/m/n/10.95 = \OML/cmm/m/it/10.95 H\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 
+x[]; ^^V\OT1/cmr/m/n/10.95 ) +
+ []
+
+<graphics/sr_m01.png, id=127, 421.575pt x 316.18124pt>
+File: graphics/sr_m01.png Graphic file (type png)
+<use graphics/sr_m01.png>
+Package pdftex.def Info: graphics/sr_m01.png  used on input line 402.
+(pdftex.def)             Requested size: 161.9989pt x 121.50098pt.
+<graphics/sr_01.png, id=128, 421.575pt x 316.18124pt>
+File: graphics/sr_01.png Graphic file (type png)
+<use graphics/sr_01.png>
+Package pdftex.def Info: graphics/sr_01.png  used on input line 408.
+(pdftex.def)             Requested size: 161.9989pt x 121.50098pt.
+
+Overfull \hbox (9.62381pt too wide) in paragraph at lines 415--416
+\OT1/cmr/m/n/10.95 elv^^Segezni a ,,p^^Sokh^^Sal^^So-diagram'' elk^^Sesz^^S^^Pt
+^^Ses^^Set, ak-kor az al^^Sabbi l^^Sep^^Seseket sz^^?uks^^Seges
+ []
+
+[26] [27 <./graphics/sr_m01.png (PNG copy)> <./graphics/sr_01.png (PNG copy)>]
+<graphics/bif_08.png, id=135, 421.575pt x 316.18124pt>
+File: graphics/bif_08.png Graphic file (type png)
+<use graphics/bif_08.png>
+Package pdftex.def Info: graphics/bif_08.png  used on input line 442.
+(pdftex.def)             Requested size: 161.9989pt x 121.50098pt.
+<graphics/bif_06.png, id=136, 421.575pt x 316.18124pt>
+File: graphics/bif_06.png Graphic file (type png)
+<use graphics/bif_06.png>
+Package pdftex.def Info: graphics/bif_06.png  used on input line 448.
+(pdftex.def)             Requested size: 161.9989pt x 121.50098pt.
+<graphics/bif_015.png, id=137, 421.575pt x 316.18124pt>
+File: graphics/bif_015.png Graphic file (type png)
+<use graphics/bif_015.png>
+Package pdftex.def Info: graphics/bif_015.png  used on input line 454.
+(pdftex.def)             Requested size: 161.9989pt x 121.50098pt.
+
+[28] [29 <./graphics/bif_08.png (PNG copy)> <./graphics/bif_06.png (PNG copy)> 
+<./graphics/bif_015.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 514.
+
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omlcmr.fd
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 514.
+ [30] [31]
+Overfull \hbox (146.18506pt too wide) in paragraph at lines 553--555
+[][][][] 
+ []
+
+
+Overfull \hbox (146.18506pt too wide) in paragraph at lines 563--565
+[][][][] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 569.
+
+(/usr/local/texlive/2019/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 569.
+)
+(./periodikus_palyak_numerikus_kovetese.tex [32]
+4. fejezet.
+[33
+
+]
+<graphics/pszeudo_ivhossz_szemleltet.png, id=158, 368.87813pt x 242.9075pt>
+File: graphics/pszeudo_ivhossz_szemleltet.png Graphic file (type png)
+<use graphics/pszeudo_ivhossz_szemleltet.png>
+Package pdftex.def Info: graphics/pszeudo_ivhossz_szemleltet.png  used on input
+ line 42.
+(pdftex.def)             Requested size: 143.9978pt x 94.82248pt.
+ [34 <./graphics/pszeudo_ivhossz_szemleltet.png>]
+<graphics/pszeudo_ivhossz_koriv.png, id=164, 632.3625pt x 474.27188pt>
+File: graphics/pszeudo_ivhossz_koriv.png Graphic file (type png)
+<use graphics/pszeudo_ivhossz_koriv.png>
+Package pdftex.def Info: graphics/pszeudo_ivhossz_koriv.png  used on input line
+ 85.
+(pdftex.def)             Requested size: 288.0011pt x 216.0039pt.
+
+Overfull \hbox (1.19624pt too wide) in paragraph at lines 102--102
+[]\OT1/cmr/bx/n/14.4 Periodikus p^^Saly^^Sak pe-rem^^Sert^^Sek-megfogalmaz^^Sas
+a 
+ []
+
+
+Overfull \hbox (7.03839pt too wide) in paragraph at lines 105--109
+\OT1/cmr/m/n/10.95 Dinamikai rend-sze-rek mozg^^Sasegyenleteinek meg-old^^Sasak
+or kez-de-ti ^^Sert^^Seket szok-
+ []
+
+
+Overfull \hbox (2.7091pt too wide) in paragraph at lines 105--109
+\OT1/cmr/m/n/10.95 tunk meg-ad-ni. Amennyi-ben a rend-szer pe-ri^^Sodikus mozg^
+^Sast v^^Segez, a probl^^Sama
+ []
+
+[35 <./graphics/pszeudo_ivhossz_koriv.png (PNG copy)>]
+Overfull \hbox (0.62552pt too wide) in paragraph at lines 118--120
+\OT1/cmr/m/n/10.95 Peri^^Sodikus mozg^^Sas eset^^Sen (au-ton^^Som rend-szern^^S
+el $\OML/cmm/m/it/10.95 t[]$ \OT1/cmr/m/n/10.95 sza-ba-don megv^^Salaszthat^^So
+,
+ []
+
+[36]
+<graphics/tomeg_rugo_modell.png, id=172, 230.8625pt x 102.88437pt>
+File: graphics/tomeg_rugo_modell.png Graphic file (type png)
+<use graphics/tomeg_rugo_modell.png>
+Package pdftex.def Info: graphics/tomeg_rugo_modell.png  used on input line 164
+.
+(pdftex.def)             Requested size: 108.0011pt x 48.13115pt.
+
+Overfull \hbox (5.27303pt too wide) in paragraph at lines 182--184
+\OT1/cmr/m/n/10.95 A fen-ti f^^?uggv^^Senyeket a pe-rem^^Sert^^Sek-megfogalmaz^
+^Saskor kij^^?ottek-kel fog-juk ^^?ossze-
+ []
+
+[37 <./graphics/tomeg_rugo_modell.png>]
+Overfull \hbox (5.58571pt too wide) in paragraph at lines 229--231
+[]\OT1/cmr/m/n/10.95 A m^^Sodszer ^^Saltal kisz^^Samolt $\OML/cmm/m/it/10.95 T$
+ \OT1/cmr/m/n/10.95 ^^Sert^^Seke meg-egye-zik az ana-li-ti-ku-san kisz^^Sam^^S^
+^Ptott
+ []
+
+<graphics/BVP_tomeg_rugo.png, id=177, 632.3625pt x 474.27188pt>
+File: graphics/BVP_tomeg_rugo.png Graphic file (type png)
+<use graphics/BVP_tomeg_rugo.png>
+Package pdftex.def Info: graphics/BVP_tomeg_rugo.png  used on input line 234.
+(pdftex.def)             Requested size: 270.0pt x 202.50005pt.
+
+Overfull \hbox (7.19048pt too wide) in paragraph at lines 240--243
+\OT1/cmr/m/n/10.95 Ebben az al-fe-je-zet-ben k^^Set p^^Seld^^Sat n^^Sez^^?unk m
+eg, ahol a pszeudo-^^S^^Pvhossz m^^Sodszert
+ []
+
+[38]
+Overfull \hbox (4.57346pt too wide) in paragraph at lines 246--249
+\OT1/cmr/m/n/10.95 A pszeudo-^^S^^Pvhossz m^^Sodszer haszn^^Salat^^Sahoz ki kel
+l v^^Salasztanunk egy bir-fuk^^Saci^^Sos
+ []
+
+[39 <./graphics/BVP_tomeg_rugo.png (PNG copy)>]
+<graphics/pszeudo_tomeg_rugo_k.png, id=184, 632.3625pt x 474.27188pt>
+File: graphics/pszeudo_tomeg_rugo_k.png Graphic file (type png)
+<use graphics/pszeudo_tomeg_rugo_k.png>
+Package pdftex.def Info: graphics/pszeudo_tomeg_rugo_k.png  used on input line 
+267.
+(pdftex.def)             Requested size: 323.9978pt x 243.0044pt.
+<graphics/pszeudo_tomeg_rugo_m.png, id=185, 632.3625pt x 474.27188pt>
+File: graphics/pszeudo_tomeg_rugo_m.png Graphic file (type png)
+<use graphics/pszeudo_tomeg_rugo_m.png>
+Package pdftex.def Info: graphics/pszeudo_tomeg_rugo_m.png  used on input line 
+273.
+(pdftex.def)             Requested size: 323.9978pt x 243.0044pt.
+<graphics/slip_mozgas.png, id=186, 1007.56425pt x 446.8695pt>
+File: graphics/slip_mozgas.png Graphic file (type png)
+<use graphics/slip_mozgas.png>
+Package pdftex.def Info: graphics/slip_mozgas.png  used on input line 285.
+(pdftex.def)             Requested size: 323.9978pt x 143.69666pt.
+ [40 <./graphics/pszeudo_tomeg_rugo_k.png (PNG copy)>]
+Overfull \hbox (6.5213pt too wide) in paragraph at lines 303--306
+\OT1/cmr/m/n/10.95 a t^^Samasz-rep^^?ul}o f^^Sazishat^^Saron, il-let-ve a rep^^
+?ul}o-t^^Samasz f^^Sazishat^^Saron az al^^Sabbiak,
+ []
+
+[41 <./graphics/pszeudo_tomeg_rugo_m.png (PNG copy)>] [42 <./graphics/slip_mozg
+as.png>] [43]
+<graphics/pszeudo_SLIP_E.png, id=201, 632.3625pt x 474.27188pt>
+File: graphics/pszeudo_SLIP_E.png Graphic file (type png)
+<use graphics/pszeudo_SLIP_E.png>
+Package pdftex.def Info: graphics/pszeudo_SLIP_E.png  used on input line 410.
+(pdftex.def)             Requested size: 288.0011pt x 216.0039pt.
+ [44]
+<graphics/pszeudo_SLIP_kappa.png, id=205, 632.3625pt x 474.27188pt>
+File: graphics/pszeudo_SLIP_kappa.png Graphic file (type png)
+<use graphics/pszeudo_SLIP_kappa.png>
+Package pdftex.def Info: graphics/pszeudo_SLIP_kappa.png  used on input line 41
+6.
+(pdftex.def)             Requested size: 288.0011pt x 216.0039pt.
+<graphics/pszeudo_SLIP_alpha.png, id=206, 632.3625pt x 474.27188pt>
+File: graphics/pszeudo_SLIP_alpha.png Graphic file (type png)
+<use graphics/pszeudo_SLIP_alpha.png>
+Package pdftex.def Info: graphics/pszeudo_SLIP_alpha.png  used on input line 42
+2.
+(pdftex.def)             Requested size: 288.0011pt x 216.0039pt.
+
+Overfull \hbox (3.75029pt too wide) in paragraph at lines 426--427
+[]\OT1/cmr/bx/n/10.95 Megjegyz^^Ses: \OT1/cmr/m/n/10.95 A [] egyen-let-rend-sze
+r kip^^Sotolhat^^So egy har-ma-dik egyen-
+ []
+
+) (./Square_root_lekepezes.tex [45 <./graphics/pszeudo_SLIP_E.png (PNG copy)>]
+[46 <./graphics/pszeudo_SLIP_kappa.png (PNG copy)> <./graphics/pszeudo_SLIP_alp
+ha.png (PNG copy)>]
+5. fejezet.
+) [47
+
+] (./SzFDR_jegyzet_v2.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 18999 strings out of 492616
+ 351994 string characters out of 6129481
+ 656462 words of memory out of 5000000
+ 22526 multiletter control sequences out of 15000+600000
+ 16851 words of font info for 63 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,23n,80p,731b,2127s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+</usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+/usr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></u
+sr/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></us
+r/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr
+/local/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/l
+ocal/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/loc
+al/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local
+/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/t
+exlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/tex
+live/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texliv
+e/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2
+019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/texlive/20
+19/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/201
+9/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2019/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2019/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2019/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2019
+/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/local/texlive/
+2019/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on SzFDR_jegyzet_v2.pdf (48 pages, 2280622 bytes).
+PDF statistics:
+ 283 PDF objects out of 1000 (max. 8388607)
+ 173 compressed objects within 2 object streams
+ 0 named destinations out of 1000 (max. 500000)
+ 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+

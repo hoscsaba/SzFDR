@@ -1,0 +1,96 @@
+\documentclass[11pt]{report}
+
+\sloppy
+
+\frenchspacing
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[magyar]{babel}
+
+% \usepackage[T1]{fontenc}
+%\usepackage{graphics}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{wrapfig}
+% \selectlanguage{hungarian}
+
+\usepackage{todonotes}
+
+\usepackage{subcaption}
+
+%\usepackage{subfigure}
+
+% \usepackage{fancybox}
+% \usepackage{todonotes}
+% \usepackage{caption}
+% \usepackage{cancel}
+%\usepackage{subfig}
+% \usepackage{color}
+
+% \usepackage[a4paper,left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+
+%%%%
+
+\usepackage{listings}
+
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\lstset{language=Matlab,%
+    frame=single,
+    %basicstyle=\color{red},
+    breaklines=true,%
+    morekeywords={matlab2tikz},
+    keywordstyle=\color{blue},%
+    morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+    identifierstyle=\color{black},%
+    stringstyle=\color{mylilas},
+    commentstyle=\color{mygreen},%
+    showstringspaces=false,%without this there will be a symbol in the places where there is a space
+    numbers=left,%
+    numberstyle={\tiny \color{black}},% size of the numbers
+    numbersep=9pt, % this defines how far the numbers are from the text
+    emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+    %emph=[2]{word1,word2}, emphstyle=[2]{style},    
+    basicstyle=\footnotesize\ttfamily,   
+}
+
+%%%%
+
+\title{Szakaszosan folytonos dinamikai rendszerek}
+\author{Hős Csaba}
+
+\begin{document}
+\maketitle			
+\pagebreak
+\tableofcontents
+\clearpage
+\pagebreak
+
+\section*{Bevezetés}
+
+Ez a jegyzet a BME Pattantyús-Ábrahám Géza Gépészeti Tudományok Doktori Iskola (DI) "Szakaszosan folytonos dinamikai rendszerek" tárgy anyagát tartalmazza. A jegyzet M. di Bernardo, C.J. Budd, A.R. Champneys és P. Kowalczyk "Piecewise-smooth Dynamical Systems" c. könyvének (Applied Mathematical Sciences Volume 163, Springer)  válogatott fejezeteire épül.
+
+Jelen jegyzetnek nem célja a terület alapos, átfogó, matematikai szempontból minden igényt kielégítő mélységű tárgyalása, sokkal inkább "ét\-vágy\-ger\-jesz\-tő" és "ugródeszka"; a bemutatott módszereket a PhD hallgatók saját igényük és szükségük szerint, a szakirodalom felhasználásával tovább mélyíthetik.
+
+Ezúton köszönöm a tárgyat eddig felvett hallgatóknak a személyes se\-gít\-sé\-gét a jegyzet elkészítésében, különösen a BME Gépészmérnöki Kar Műszaki Mechanikai Tanszékének PhD hallgatóinak -- többek között Horváth Hanna Zsófia (\ref{sec:filippov}. fejezet), Kádár Fanni (\ref{sec:korr_kapcs}. fejezet), Patkó Dóra (\ref{sec:perpalyakovetes}. fejezet), Zsíros Ádám (\ref{sec:square_root}. fejezet) --  akik éveken keresztül azt a kritikus tömeget adták, mely lehetővé tette a tárgy indítását és így engem is rákényszerítettek arra, hogy rendezett formába rendezzem az anyagot. 
+
+\vspace{1cm}
+
+\noindent Budapest, \today
+
+\vspace{1cm}
+
+\noindent Hős Csaba
+
+\input{folytonos_rendszerek}
+\input{Filippov_rendszerek}
+\input{korrekcio_a_kapcsolofeluleten}
+\input{periodikus_palyak_numerikus_kovetese}
+%\input{Square_root_lekepezes}
+
+
+\end{document}             
