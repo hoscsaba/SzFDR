@@ -1,0 +1,26 @@
+% Local quadratic geometry, illustrated for epsilon>0; 11 pt labels.
+\begin{tikzpicture}[x=2.3cm,y=1.1cm,>=Latex,line width=.7pt,
+ font=\normalfont\fontsize{11}{13.2}\selectfont]
+\fill[gray!10] (-2.05,-1.4) rectangle (2.05,0);
+\draw[->] (-2.1,0)--(2.3,0) node[right] {$t$};
+\draw[->] (-2,-1.4)--(-2,3.2) node[above] {$h(t)$};
+\node[above right] at (1.2,0) {$h=0$: fal};
+\node[above right] at (-1.85,2.8) {megengedett oldal: $h>0$};
+\draw[blue!65!black,very thick,domain=-1.9:-1,samples=50]
+ plot (\x,{\x*\x-1});
+\draw[blue!65!black,thick,dashed,domain=-1:1.9,samples=100]
+ plot (\x,{\x*\x-1});
+\draw[densely dotted] (0,-1.25)--(0,2.7);
+\fill (-1,0) circle (1.5pt); \fill (0,-1) circle (1.5pt);
+\draw (1,-.06)--(1,.06);
+\node[above left,fill=white,inner sep=1pt] at (-1,0) {$t_-$};
+\node[above left] at (0,0) {$t_g$};
+\node[below right] at (1,0) {$t_+$};
+\draw[<->] (.12,0)--(.12,-1) node[midway,right] {$\varepsilon$};
+\node[below] at (0,-1.06) {$h(t_g)=-\varepsilon$};
+\draw[densely dotted] (-1,-.12)--(-1,-1.85);
+\draw[densely dotted] (0,-1.45)--(0,-1.85);
+\draw[<->] (-1,-1.75)--(0,-1.75)
+ node[midway,below] {$t_g-t_-=\sqrt{2\varepsilon/a}$};
+\node[align=center] at (0,-2.8) {szaggatott: ütközés nélküli\\sima továbbvezetés};
+\end{tikzpicture}

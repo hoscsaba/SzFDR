@@ -1,0 +1,46 @@
+\documentclass[11pt,a4paper]{report}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[magyar]{babel}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=2.5cm]{geometry}
+\usepackage{microtype}
+\usepackage{placeins}
+\usepackage{graphicx,amsmath,amssymb,subcaption,textcomp}
+\usepackage{booktabs,longtable,array}
+\usepackage{xcolor,listings}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,calc}
+\usepackage[unicode,hidelinks]{hyperref}
+\usepackage{xurl}
+\setlength{\emergencystretch}{3em}
+\lstdefinestyle{matlabstyle}{language=Matlab,frame=single,
+ basicstyle=\ttfamily\footnotesize,keywordstyle=\color{blue!60!black},
+ commentstyle=\color{black!55},stringstyle=\color{green!35!black},
+ numbers=left,numberstyle=\tiny\color{black!55},numbersep=9pt,
+ breaklines=true,breakatwhitespace=false,columns=fullflexible,
+ keepspaces=true,showstringspaces=false,tabsize=4,captionpos=b,
+ xleftmargin=26pt,framexleftmargin=22pt,framesep=4pt}
+\lstset{style=matlabstyle}
+\title{Szakaszosan folytonos dinamikai rendszerek\\[.5em]\large Javított oktatási jegyzet -- 3. változat}
+\author{Hős Csaba}
+\date{2026. október 29.}
+
+\newcommand{\examplebody}{\par\addvspace{1.2\baselineskip}\noindent\ignorespaces}
+\newcommand{\exampleheading}[1]{\par\addvspace{1.5\baselineskip}\noindent\textbf{#1}\par\nobreak\smallskip\noindent\ignorespaces}
+\newcommand{\exampleend}{\ifhmode\unskip\nobreak\hfill\ensuremath{\diamond}\par\else\nopagebreak[4]\noindent\hfill\ensuremath{\diamond}\par\fi\FloatBarrier\addvspace{1.5\baselineskip}}
+\begin{document}
+\maketitle
+\setcounter{tocdepth}{1}
+\begingroup\small\tableofcontents\endgroup
+\input{chapters_v3/jelolesek}
+\input{chapters_v3/folytonos_rendszerek}
+\input{chapters_v3/Filippov_rendszerek}
+\input{chapters_v3/korrekcio_a_kapcsolofeluleten}
+\input{chapters_v3/Square_root_lekepezes}
+\input{chapters_v3/periodikus_palyak_numerikus_kovetese}
+\input{chapters_v3/gyakorlati_modellek}
+\input{chapters_v3/irodalom}
+\appendix
+\input{chapters_v3/kodmelleklet}
+\end{document}

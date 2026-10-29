@@ -1,0 +1,296 @@
+\chapter{\label{sec:korr_kapcs}Korrekció a kapcsolófelületen}
+
+\section{Transzverzális metszés, hibrid dinamikai rendszer}
+A közös időpontra korrigáló leképezés könyvbeli levezetése: \cite[2.5.1--2.5.2. szakasz]{dib}. A következő számítás az ottani transzverzális eseménygeometriát részletezi.
+
+A korrekciós mátrix levezetéséhez lásd \cite{kong}.
+Legyen $\dot{x}=F(x)$ a folytonos dinamika, $\Sigma=\{x:H(x)=0\}$ az eseményfelület, $x^+=R(x^-)$ a reset leképezés. A megoldásoperátor $\Phi(x,t)$. Feltesszük, hogy $F,H,R$ simák és $H_x(x^*)F(x^*)\neq0$ a vizsgált ütközési pontban.
+
+A referenciapálya a $t_1$ időpontban éri el az $x^*$ eseménypontot, majd az állapota $R(x^*)$-ra ugrik. A közeli kezdeti állapotból indított, perturbált pálya általában más időpontban éri el a felületet: legyen ez $t_1+\delta$. A $\delta$ tehát \emph{eseményidő-eltérés}, amely a perturbációtól függ, és pozitív vagy negatív is lehet. Pozitív értéke későbbi, negatív értéke korábbi ütközést jelent.
+
+A stabilitásvizsgálathoz a két pálya eltérését \emph{azonos időpontban} kell összehasonlítanunk. Az $R_x$ önmagában csak az eseményfelületen vett reset leképezés érzékenységét adná meg; nem venné figyelembe, hogy a megzavart pálya más ideig mozog az esemény előtt és után. Ezért bevezetünk egy olyan $Q$ leképezést, amely a perturbált pálya esemény előtti leírását a referencia $t_1$ idejére vonatkozó esemény utáni leírásba viszi át.
+
+Legyen $x_0=x^*+\Delta x$ az esemény előtti sima dinamika szerint $t_1$-ig továbbvezetett perturbált állapot. Ez \emph{segédállapot}: ha a perturbált ütközés korábban történt ($\delta<0$), akkor a tényleges pálya $t_1$-ben már az esemény utáni dinamikát követi, és nem $x_0$-ban van. A sima folytatás éppen azért szükséges, hogy ugyanazon referenciaidőben adhassuk meg a bemenő perturbációt.
+
+A keresett korrekciós leképezés a \ref{fig:korr_idokorrekcio}. ábra jelöléseivel:
+\begin{equation}\label{eq:Q_osszetetel}
+Q(x_0)=\Phi\bigl(R(\Phi(x_0,\delta)),-\delta\bigr).
+\end{equation}
+\begin{figure}[htbp]\centering
+\input{graphics_v3/correction_timing.tikz.tex}
+\caption{A referencia- és a perturbált esemény időbeli összehangolása.}
+\label{fig:korr_idokorrekcio}
+\end{figure}
+
+Az \eqref{eq:Q_osszetetel} összetételt belülről kifelé, három lépésben értelmezzük:
+\begin{enumerate}
+\item \textbf{Eljutunk a perturbált eseményhez.} Az $x_0$ segédállapotból $\delta$ időt lépünk a sima megoldásoperátorral. Az így kapott $x_5=\Phi(x_0,\delta)$ már a kapcsolófelületen van: ez a perturbált pálya tényleges, esemény előtti állapota a $t_1+\delta$ időpontban.
+\item \textbf{Alkalmazzuk a reset leképezést.} Az $x_3=R(x_5)$ pont az esemény utáni állapot, ugyanabban a $t_1+\delta$ időpontban. Ütközésnél például ebben a lépésben fordul meg és csökken a normális sebesség.
+\item \textbf{Visszatérünk a közös referenciaidőre.} Az esemény utáni $x_3$ állapotot $-\delta$ idővel továbbvezetjük: $x_4=\Phi(x_3,-\delta)=Q(x_0)$. Ezzel ismét a $t_1$ időpontra vonatkozó állapotot kapunk, amelyet már $R(x^*)$-gal kell összehasonlítani.
+\end{enumerate}
+A harmadik lépésben szereplő negatív idő \emph{matematikai időkorrekció}, nem fizikailag visszafelé lejátszott ütközés. Ha $\delta>0$, az esemény utáni sima pályát visszafelé hosszabbítjuk meg; ha $\delta<0$, előrefelé vezetjük a referenciaidőig. Az itt vizsgált speciális esetben az esemény előtt és után ugyanaz az $F$ mező érvényes, ezért mindkét helyen ugyanazt a $\Phi$ operátort használjuk. Különböző mezők esetén a belső operátor $\Phi_1$, a külső $\Phi_2$, ahogy a \ref{sec:altalanos_korrekcio}. szakaszban látni fogjuk.
+
+A $\delta$ nem független bemenő adat: a közeli eseménypontot a
+\[
+H\bigl(\Phi(x_0,\delta(x_0))\bigr)=0,\qquad \delta(x^*)=0
+\]
+feltétel jelöli ki. Mivel ennek $\delta$ szerinti deriváltja a referenciapontban $H_x(x^*)F(x^*)\neq0$, az implicitfüggvény-tétel lokálisan egyértelmű, sima $\delta(x_0)$ függvényt biztosít. Következésképpen $Q$ a választott esemény közelében jól definiált sima leképezés. Nem azt feltételezzük, hogy a teljes hibrid pálya visszafordítható, hanem csak a sima szakaszok lokális folytatását használjuk.
+
+Perturbáció nélkül $x_0=x^*$ és $\delta=0$, így \eqref{eq:Q_osszetetel} szerint $Q(x^*)=R(x^*)$. Kis perturbációnál a releváns esemény utáni eltérés ezért $Q(x^*+\Delta x)-R(x^*)$. Ennek elsőrendű tagját adja majd a $Q_x(x^*)\Delta x$ szorzat; az eseményidő változásának hatása jelenik meg a korrekciós mátrix $R_x$-en felüli tagjában.
+
+Az eseményig történő elmozdulás első rendben:
+\begin{align}
+x_5&=x^*+\Delta x+\delta F(x^*)+\mathcal O(2),\\
+0=H(x_5)&=H_x(x^*)\Delta x+\delta H_x(x^*)F(x^*)+\mathcal O(2),\\
+\delta&=-\frac{H_x(x^*)\Delta x}{H_x(x^*)F(x^*)}+\mathcal O(2).
+\end{align}
+Az $\mathcal O(2)$ jelölés a perturbáció és az eseményidő-eltérés legalább másodrendű tagjait foglalja össze. A reset leképezést és az időkorrekciót is sorba fejtve:
+\begin{align}
+Q(x_0)&=R(x^*)+R_x(x^*)\Delta x\notag\\
+&\quad+\delta\bigl[R_x(x^*)F(x^*)-F(R(x^*))\bigr]+\mathcal O(2).
+\label{linearizaltx4}
+\end{align}
+Ezért
+\begin{equation}\label{linearizaltlekepezes}
+Q(x_0)=R(x^*)+Q_x(x^*)\Delta x+\mathcal O(\|\Delta x\|^2),
+\end{equation}
+ahol a korrekciós, más néven saltation-mátrix
+\begin{equation}\label{eq:Qxmatrix}
+Q_x=R_x+\frac{\bigl[F(R(x^*))-R_xF(x^*)\bigr]H_x}{H_xF(x^*)}.
+\end{equation}
+Itt $H_x$ egy $1\times n$ sorvektor; a számlálóban oszlop- és sorvektor diadikus szorzata áll, tehát $Q_x\in\mathbb R^{n\times n}$.
+
+\section{Példa: gerjesztett ütköző oszcillátor}
+\examplebody
+
+A \eqref{eq:Qxmatrix} képletet most háromdimenziós állapottérben, tényezőnként számítjuk ki. Használjuk az $x=(u,v,s)^{\mathsf T}$ állapotot: $u$ az elmozdulás, $v$ a sebesség, $s$ pedig az időt követő állapotváltozó ($\dot s=1$). A csillapítás $\zeta$, a visszapattanási tényező $r$:
+\[
+F(x)=\begin{pmatrix}v\\-u-2\zeta v+\cos(\omega s)\\1\end{pmatrix},\qquad
+H(x)=u-\sigma,\qquad R(x)=\begin{pmatrix}u\\-rv\\s\end{pmatrix}.
+\]
+A fal helyzete $\sigma$; ezt megkülönböztetjük a $\delta$ időkorrekciótól. Az ütközés előtti eseménypont legyen $x^*=(\sigma,v^-,s^*)^{\mathsf T}$, az utána következő állapot pedig $R(x^*)=(\sigma,-rv^-,s^*)^{\mathsf T}$. A felső $-$ és $+$ jel az esemény előtti és utáni értéket jelöli, nem hatványt.
+
+
+A reset leképezés és az eseményfüggvény deriváltját elemenként felírva:
+\[
+R_x=\begin{pmatrix}1&0&0\\0&-r&0\\0&0&1\end{pmatrix},\qquad
+H_x=\begin{pmatrix}1&0&0\end{pmatrix}.
+\]
+A \eqref{eq:Qxmatrix} képlet minden tagját az eseménypontban értékeljük ki; röviden $F^-=F(x^*)$, $F^+=F(R(x^*))$. Először ezeket a vektorokat számítjuk ki, majd közvetlenül behelyettesítjük a korrekciós képletbe.
+
+
+Az ütközéskor a sebesség előjelet és nagyságot vált, míg $u$ és $s$ nem ugrik. Emiatt
+\[
+a^-=-\sigma-2\zeta v^-+\cos(\omega s^*),\qquad
+ a^+=-\sigma+2\zeta r v^-+\cos(\omega s^*),
+\]
+\[
+F^-=\begin{pmatrix}v^-\\a^-\\1\end{pmatrix},\qquad
+F^+=\begin{pmatrix}-rv^-\\a^+\\1\end{pmatrix}.
+\]
+Bár ugyanaz az $F$ függvény írja le a szabad mozgást az ütközés előtt és után, különböző állapotokban értékeljük ki, ezért általában $F^+\neq F^-$.
+
+A konkrét tényezőkkel a teljes behelyettesítés:
+\[
+Q_x=
+\begin{pmatrix}1&0&0\\0&-r&0\\0&0&1\end{pmatrix}
++\frac{
+\left[
+\begin{pmatrix}-rv^-\\a^+\\1\end{pmatrix}
+-\begin{pmatrix}1&0&0\\0&-r&0\\0&0&1\end{pmatrix}
+\begin{pmatrix}v^-\\a^-\\1\end{pmatrix}
+\right]\begin{pmatrix}1&0&0\end{pmatrix}}
+{\begin{pmatrix}1&0&0\end{pmatrix}\begin{pmatrix}v^-\\a^-\\1\end{pmatrix}}.
+\]
+A nevező egy skalár; a számlálóban az oszlopvektor és a sorvektor külső szorzata áll. A következő lépésekben ezeket külön kiszámítjuk.
+
+
+Először a reset leképezés deriváltját szorozzuk az ütközés előtti vektormezővel:
+\[
+R_xF^-=\begin{pmatrix}1&0&0\\0&-r&0\\0&0&1\end{pmatrix}
+\begin{pmatrix}v^-\\a^-\\1\end{pmatrix}
+=\begin{pmatrix}v^-\\-ra^-\\1\end{pmatrix}.
+\]
+Ezt vonjuk ki az esemény utáni mezőből:
+\[
+b:=F^+-R_xF^-=\begin{pmatrix}-(1+r)v^-\\a^++ra^-\\0\end{pmatrix}.
+\]
+A nevező pedig
+\[
+H_xF^-=\begin{pmatrix}1&0&0\end{pmatrix}
+\begin{pmatrix}v^-\\a^-\\1\end{pmatrix}=v^-.
+\]
+Ez az eseményfelület normális irányú sebessége. A transzverzalitási feltétel itt pontosan $v^-\neq0$.
+
+
+Az oszlopvektort jobbról szorozzuk a sorvektorral:
+\[
+bH_x=
+\begin{pmatrix}-(1+r)v^-\\a^++ra^-\\0\end{pmatrix}
+\begin{pmatrix}1&0&0\end{pmatrix}
+=\begin{pmatrix}
+-(1+r)v^-&0&0\\a^++ra^-&0&0\\0&0&0
+\end{pmatrix}.
+\]
+Általában $(bH_x)_{ij}=b_i(H_x)_j$. Itt csak az első oszlop nem nulla, mert $H_x=(1,0,0)$: az eseményidő elsőrendű változását közvetlenül az elmozdulás perturbációja határozza meg.
+A skalár nevezővel való osztás, majd $R_x$ hozzáadása:
+\[
+\begin{aligned}
+Q_x&=\begin{pmatrix}1&0&0\\0&-r&0\\0&0&1\end{pmatrix}
++\begin{pmatrix}-(1+r)&0&0\\(a^++ra^-)/v^-&0&0\\0&0&0\end{pmatrix}\\[2mm]
+&=\begin{pmatrix}-r&0&0\\(a^++ra^-)/v^-&-r&0\\0&0&1\end{pmatrix},\qquad v^-\neq0.
+\end{aligned}
+\]
+A gyorsulásokat behelyettesítve a középső sor első eleme tovább egyszerűsíthető, mert a csillapítási tagok kiesnek:
+\[
+a^++ra^-=(1+r)\bigl[-\sigma+\cos(\omega s^*)\bigr].
+\]
+
+
+A $Q_x$ az azonos referenciaidőben értelmezett perturbációkat kapcsolja össze. Ha $\Delta x=(\Delta u,\Delta v,\Delta s)^{\mathsf T}$, akkor első rendben
+\[
+\Delta Q=
+\begin{pmatrix}-r&0&0\\(a^++ra^-)/v^-&-r&0\\0&0&1\end{pmatrix}
+\begin{pmatrix}\Delta u\\\Delta v\\\Delta s\end{pmatrix}
+=\begin{pmatrix}
+-r\,\Delta u\\
+\dfrac{a^++ra^-}{v^-}\Delta u-r\,\Delta v\\
+\Delta s
+\end{pmatrix}.
+\]
+Ez magyarázza, hogy az első diagonális elem $-r$, miközben $R_x$ első diagonális eleme $1$: a $Q_x$ a reset leképezés mellett az eltérő eseményidő korrekcióját is tartalmazza. Az $(a^++ra^-)/v^-$ elem azt írja le, hogyan okoz az elmozdulás perturbációja a módosult ütközési időn keresztül sebességeltérést.
+
+A $v^-\to0$ határesetben a transzverzális levezetés érvényét veszti; ezt a grazing-fejezet tárgyalja. Még ha a számláló is nullává válik, a fenti képlet önmagában nem igazol érvényes korrekciós mátrixot az érintési pontban.
+\exampleend
+
+\section{Transzverzális metszés, általános eset}\label{sec:altalanos_korrekcio}
+
+Korrekció a kapcsolósíkon. Az általános esetben:
+\[
+{\dot{x}} = \begin{cases}
+   {\ F}_1(x), & \text{ha } \; H({ x})>0 \\
+   {\ F}_2(x), & \text{ha } \; H({ x})<0,
+ \end{cases}
+\]
+
+\begin{figure}
+	\centering
+	\input{graphics_v3/reset_geometry.tikz.tex}
+	\caption{$R(x)$ nem kapcsolósíkra képez le.}\label{fig:501}
+\end{figure}
+
+ahol ${x}\rightarrow R({x}),\; \text{ha}\; H(x)=0.$ Továbbá $R(x)$-nek nem kötelező a kapcsolósíkra leképeznie (lásd \ref{fig:501}. ábra).\\
+
+ A $Q(x)$ korrekciós leképezés alatt a következő érthető: (lásd \ref{fig:502}. ábra)
+\noindent
+ $\Sigma = \lbrace x,\; H(x)=0 \rbrace,\\
+ x^*=\Phi_1(x_p,t),\\
+ x_0=\Phi_1{(\hat{x},t_1)} \rightarrow x_2=\Phi_1(x_0,\delta),\\
+ x_4=\Phi_2(x_3,-\delta),\\
+ x_0 \rightarrow x_4=Q(x_0)=\Phi_2(\underbrace{R(\overbrace{\Phi_1(x_0,\delta)}^{x_2})}_{x_3},-\delta)$
+
+\begin{figure}[ht]
+\centering
+\input{graphics_v3/general_correction.tikz.tex}
+\caption{Korrekció származtatása ha $R(x)$ nem kapcsolósíkra képez le.}\label{fig:502}
+\end{figure}
+
+ $Q(x)$ linearizáltjára adódik, hogy:
+ \begin{equation}
+  Q_x(x^*)=R_x(x^*)+\frac{(F_2(R(x^*))-R_x(x^*)F_1(x^*))H_x(x^*)}{H_x(x^*)F_1(x^*)}\label{eq:general_saltation}
+ \end{equation}
+  és $H_x(x^*)F_1(x^*)\neq 0$ transzverzális metszés.
+
+\exampleheading{Példa: végállásütközés és motorerő-váltás.}
+Egy vízszintes sínen mozgó, $m$ tömegű szánt motor hajt egy merev végállás felé. A végállástól mért távolság $q\geq0$, a sebesség $v=\dot q$; az állapot $x=(q,v)^{\mathsf T}$. A rövid eseménykörnyezetben a súrlódást elhanyagoljuk, a motorerőt az egyes módokban állandónak vesszük. Beérkezés előtt az erő $u_1$, az ütközés érzékelése után a vezérlő $u_2$ erőre vált. A gyorsulások $a_1=u_1/m$ és $a_2=u_2/m$.
+
+Az ütközés előtti és utáni mező, az eseményfüggvény és a reset leképezés:
+\[
+F_1(q,v)=\begin{pmatrix}v\\a_1\end{pmatrix},\qquad
+F_2(q,v)=\begin{pmatrix}v\\a_2\end{pmatrix},\qquad
+H(q,v)=q,\qquad R(q,v)=\begin{pmatrix}q\\-rv\end{pmatrix},
+\]
+ahol $0<r\leq1$ a visszapattanási tényező. A motorerő véges váltása a gyorsulást módosítja; a pillanatszerű sebességugrást a kontaktus impulzusa okozza.
+
+Ebben a hibrid példában az 1 és 2 index az esemény előtti és utáni \emph{üzemmódot} jelöli. A szán ütközés után is a megengedett $q\geq0$ oldalon van: a módot a vezérlő tárolja, nem kizárólag $H$ előjele határozza meg. A \eqref{eq:general_saltation} korrekciós képlet erre is érvényes: az esemény előtti és utáni megfelelő mezőt kell behelyettesíteni. Ez a könyv általános hibrid eseménykezelésének egyszerű alkalmazása \cite[2.5.2. szakasz]{dib}.
+
+
+Legyen $x^-=(0,v^-)^{\mathsf T}$, ahol $v^-<0$. Ekkor
+\[
+x^+=\begin{pmatrix}0\\-rv^-\end{pmatrix},\qquad
+R_x=\begin{pmatrix}1&0\\0&-r\end{pmatrix},\qquad
+H_x=\begin{pmatrix}1&0\end{pmatrix}.
+\]
+A mezők az esemény megfelelő oldalain:
+\[
+F_1(x^-)=\begin{pmatrix}v^-\\a_1\end{pmatrix},\qquad
+F_2(x^+)=\begin{pmatrix}-rv^-\\a_2\end{pmatrix},\qquad
+H_xF_1(x^-)=v^-\neq0.
+\]
+Az ütközés tehát transzverzális. A számláló vektorkülönbsége
+\[
+F_2(x^+)-R_xF_1(x^-)
+=\begin{pmatrix}-rv^-\\a_2\end{pmatrix}
+-\begin{pmatrix}1&0\\0&-r\end{pmatrix}\begin{pmatrix}v^-\\a_1\end{pmatrix}
+=\begin{pmatrix}-(1+r)v^-\\a_2+ra_1\end{pmatrix}.
+\]
+
+
+\[
+\begin{aligned}
+Q_x&=\begin{pmatrix}1&0\\0&-r\end{pmatrix}
++\frac1{v^-}\begin{pmatrix}-(1+r)v^-\\a_2+ra_1\end{pmatrix}
+\begin{pmatrix}1&0\end{pmatrix}\\[1mm]
+&=\begin{pmatrix}1&0\\0&-r\end{pmatrix}
++\begin{pmatrix}-(1+r)&0\\(a_2+ra_1)/v^-&0\end{pmatrix}
+=\boxed{\begin{pmatrix}-r&0\\(a_2+ra_1)/v^-&-r\end{pmatrix}}.
+\end{aligned}
+\]
+A $R_x$ önmagában nem adná meg ezt az eredményt: az eseményidő eltérése miatt a két pálya más ideig mozog a két különböző motorerő mellett.
+
+
+Válasszuk az $m=1$ kg, $u_1=-1$ N, $u_2=2$ N, $r=0{,}5$, $v^-=-1$ m/s értékeket. Így $a_1=-1$ m/s$^2$, $a_2=2$ m/s$^2$, $v^+=0{,}5$ m/s, és
+\[
+Q_x=\begin{pmatrix}-0{,}5&0\\-1{,}5\,\mathrm{s}^{-1}&-0{,}5\end{pmatrix}.
+\]
+Ha a referenciaütközés időpontjában a beérkező, simán továbbvezetett pálya helyzeteltérése $\Delta q=1$ mm, sebességeltérése pedig $\Delta v=0$, akkor az azonos referenciaidőre korrigált esemény utáni eltérés első rendben
+\[
+\begin{pmatrix}\Delta q^+\\\Delta v^+\end{pmatrix}
+=Q_x\begin{pmatrix}0{,}001\,\mathrm m\\0\end{pmatrix}
+=\begin{pmatrix}-0{,}0005\,\mathrm m\\-0{,}0015\,\mathrm{m/s}\end{pmatrix}.
+\]
+A távolabbról érkező szán körülbelül $\delta=-\Delta q/v^-=0{,}001$ s-mal később ütközik. Ezalatt még a beérkező mód szerint gyorsul, majd a visszapattanás után a közös referenciaidőre kell visszavezetni. E két hatást együtt tartalmazza a $-1{,}5\,\mathrm{s}^{-1}$ elem. A negatív $\Delta q^+$ itt a közös időre visszavezetett \emph{segédállapot} eltérése, nem tényleges falba hatolás; az esemény utáni sima mezőt lokálisan visszafelé is használjuk.
+
+A képlet esemény előtti és utáni perturbációkat köt össze, nem a teljes repülési szakasz érzékenységét. Egy teljes mozgás vagy szabályozási ciklus vizsgálatában a folytonos variációs mátrixok közé kell illeszteni. Ha $v^-=0$, a transzverzalitás megszűnik, és ez a levezetés nem alkalmazható.
+\exampleend
+
+\subsection*{A képlet fontos speciális esetei}
+ \exampleheading{Példa 1.} Filippov-rendszer sliding nélkül, azaz $F_1|_\Sigma \neq F_2|_\Sigma$, valamint $R(x)=x$, azaz önmagába leképezés. \\
+ Ilyenkor:
+ \[Q_x=I+\frac{(F_2-F_1)H_x}{H_xF_1}, \; \text{mert} \; R_x(x)=I.\]
+\exampleend
+
+\exampleheading{Példa 2.} Ütközéses dinamikai rendszer, ahol $F_1=F_2=F$.
+Így a derivált:
+\[
+Q_x(x^*)=R_x(x^*)+\frac{(F(R(x^*))-R_x(x^*)F(x^*))H_x(x^*)}{H_x(x^*)F(x^*)}
+\]
+\exampleend
+
+\exampleheading{Példa 3.} Filippov-rendszer sliding mozgással, azaz
+
+ \[
+ F_s=F_{12}=(1-\alpha)F_1+\alpha F_2, \; \text{és } \; \alpha=\frac{H_x F_1}{H_x(F_1-F_2)}.
+ \]
+ Ekkor
+\[
+	Q_x=I+\frac{(F_{12}-F_1)H_x}{H_xF_1}
+\]
+
+\begin{figure}[ht]
+	\centering
+	\input{graphics_v3/sliding_geometry.tikz.tex}
+	\caption{Filippov-rendszer sliding mozgással}\label{fig:503}
+\end{figure}
+\exampleend
+

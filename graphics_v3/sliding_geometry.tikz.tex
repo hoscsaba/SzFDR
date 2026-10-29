@@ -1,0 +1,13 @@
+\begin{tikzpicture}[x=1cm,y=1cm,>=Latex,line width=.7pt,
+ font=\normalfont\fontsize{10.5}{12.6}\selectfont,
+ every label/.style={fill=white,inner sep=1.3pt},
+ point/.style={circle,fill,inner sep=1.25pt}]
+\coordinate (xs) at (5,1.7);
+\draw (4.3,.6)--(7,4.85) node[above] {$\Sigma$};
+\draw[->] (2,4.5)..controls(.9,1.7)and(2.8,.5)..(xs);
+\node[left] at (.9,3.25) {$F_1$};
+\draw[very thick,->] (xs)--(6.4,3.9);
+\node[right] at (5.9,2.9) {$F_s$};
+\node[point] at (xs) {};
+\node at (6.85,1.05) {sliding};
+\end{tikzpicture}

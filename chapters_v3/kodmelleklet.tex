@@ -1,0 +1,111 @@
+\chapter{Numerikus példák és ellenőrzések}\label{ap:all_codes}
+\lstset{basicstyle=\ttfamily\fontsize{8.5}{10}\selectfont}
+A jegyzet összes MATLAB-példaprogramja és a hozzájuk tartozó segédfüggvények a projekt \texttt{codes} könyvtárában találhatók. A \texttt{Contents.m} tartalomjegyzéket, a \texttt{README.txt} futtatási útmutatót ad; futtatás előtt ezt a könyvtárat az útvonalhoz kell adni. A peremfeladatokhoz \texttt{bvp5c}, a generikus korrektorhoz \texttt{fsolve} (Optimization Toolbox) szükséges. A példakódok az algoritmus lépéseire szorítkoznak; a bemenetek feltételeit a megjegyzések adják meg. Futás közben csak a konvergencia, a fizikai megoldáság és a szinguláris események miatt szükséges ellenőrzések maradtak meg. Az adott paramétertartomány konvergenciavizsgálatát külön kell elvégezni.
+\paragraph*{Ábrák és automatikus ellenőrzések.}
+A \texttt{codes/square\_root\_figures\_v3.py} program NumPy és PGFPlots használatával öt vektoros PDF-ábrát készít. A bifurkációs ábrák 241 paraméterértéket, 2320 tranziens iterációt és 80 megtartott iterátumot használnak, minden pontban $w_0=0$ kezdeti értékkel. A cobweb diagramok 24 iterációt mutatnak.
+
+A \texttt{checks/verify\_p1.py} a P1-es mátrixokat és invariánsokat, a \texttt{checks/verify\_p23.py} a folytatást, a vetítést, a grazing-geometriát, az admissibility feltételeit és a forráshivatkozásokat ellenőrzi. A Python-ellenőrzések nem futtatják a MATLAB-megoldókat; utóbbiakat a célrendszeren külön is ellenőrizni kell.
+
+A főszöveg példái az alábbi teljes kódlistákra hivatkoznak. Minden program egyszer szerepel; a szakaszok elején visszahivatkozás mutat az alkalmazás helyére.
+
+\clearpage
+\section{Határciklus monodrómia-mátrixa}\label{ap:monodromy}
+Alkalmazás és magyarázat a főszöveg \pageref{use:monodromy}. oldalán. 
+Fájl: \path{codes/Monodromia_mx_pelda_v3.m}.
+\lstinputlisting[caption={Határciklus monodrómia-mátrixa},label={lst:monodromy}]{codes/Monodromia_mx_pelda_v3.m}
+
+\clearpage
+\section{Harmonikus oszcillátor negyedperiódus-feladata}\label{ap:spring_bvp}
+Alkalmazás és magyarázat a főszöveg \pageref{use:spring_bvp}. oldalán. 
+Fájl: \path{codes/mass_spring_bvp_v3.m}.
+\lstinputlisting[caption={Harmonikus oszcillátor negyedperiódus-feladata},label={lst:spring_bvp}]{codes/mass_spring_bvp_v3.m}
+
+\clearpage
+\section{Ütközéses állapot- és variációs integrálás}\label{ap:codes1}
+Fájl: \path{codes/impact_monodromy_v3.m}.
+A függvény az állapotot és a variációs mátrixot együtt integrálja, az ütközéseknél saltation-korrekcióval. Általános kezdeti állapotnál a visszaadott mátrix a véges idejű leképezés deriváltja; csak periodikus pályán monodrómia-mátrix. Alkalmazását a \ref{sec:square_root}. fejezet tárgyalja. Példahívás:
+\begin{lstlisting}[numbers=none]
+[yT,M,t,y,nImpact] = impact_monodromy_v3([1;0],0,2*pi/3,0.05,3,0.8,0);
+\end{lstlisting}
+\lstinputlisting[caption={Ütközéses állapot- és variációs integrálás},label={lst:codes1}]{codes/impact_monodromy_v3.m}
+
+\clearpage
+\section{Generikus pseudo-arclength korrektor}\label{ap:pal}
+Fájl: \path{codes/pal_corrector_v3.m}.
+A korrektorhoz \texttt{fsolve} szükséges. A \ref{ap:fold}. szakasz teljes példája mutatja a használatát.
+\lstinputlisting[caption={Generikus pseudo-arclength korrektor},label={lst:pal}]{codes/pal_corrector_v3.m}
+
+\clearpage
+\section{Áthaladás egy visszahajláson}\label{ap:fold}
+Alkalmazás és magyarázat a főszöveg \pageref{use:fold}. oldalán. 
+Fájl: \path{codes/fold_pal_v3.m}.
+A program a \ref{ap:pal}. szakaszban közölt korrektorra támaszkodik; mindkét fájl legyen a MATLAB útvonalán.
+\lstinputlisting[caption={Áthaladás egy visszahajláson},label={lst:fold}]{codes/fold_pal_v3.m}
+
+\clearpage
+\section{Feldobás peremérték-feladata}\label{ap:apex_bvp}
+Alkalmazás és magyarázat a főszöveg \pageref{use:apex_bvp}. oldalán. 
+Fájl: \path{codes/apex_bvp_v3.m}.
+\lstinputlisting[caption={Feldobás peremérték-feladata},label={lst:apex_bvp}]{codes/apex_bvp_v3.m}
+
+\clearpage
+\section{Feldobás shooting módszerrel}\label{ap:apex_shooting}
+Alkalmazás és magyarázat a főszöveg \pageref{use:apex_shooting}. oldalán. 
+Fájl: \path{codes/apex_shooting_v3.m}.
+\lstinputlisting[caption={Feldobás shooting módszerrel},label={lst:apex_shooting}]{codes/apex_shooting_v3.m}
+
+\clearpage
+\section{Tömeg--rugó rendszer paraméterkövetése}\label{ap:spring_cont}
+Alkalmazás és magyarázat a főszöveg \pageref{use:spring_cont}. oldalán. 
+Fájl: \path{codes/spring_continuation_v3.m}.
+\lstinputlisting[caption={Tömeg--rugó rendszer paraméterkövetése},label={lst:spring_cont}]{codes/spring_continuation_v3.m}
+
+\clearpage
+\section{Kétféle merevségű rugó: illesztett peremfeladat}\label{ap:bilinear}
+Alkalmazás és magyarázat a főszöveg \pageref{use:bilinear}. oldalán. 
+Fájl: \path{codes/bilinear_bvp_v3.m}.
+\lstinputlisting[caption={Kétféle merevségű rugó: illesztett peremfeladat},label={lst:bilinear}]{codes/bilinear_bvp_v3.m}
+
+\clearpage
+\section{Pattogó labda eseményvezérelt integrálása}\label{ap:ball}
+Alkalmazás és magyarázat a főszöveg \pageref{use:ball}. oldalán. 
+Fájl: \path{codes/bouncing_ball_v3.m}.
+\lstinputlisting[caption={Pattogó labda eseményvezérelt integrálása},label={lst:ball}]{codes/bouncing_ball_v3.m}
+
+\clearpage
+\section{Stick--slip egzakt szakaszokkal}\label{ap:stick}
+Alkalmazás és magyarázat a főszöveg \pageref{use:stick}. oldalán. 
+Fájl: \path{codes/stick_slip_v3.m}.
+\lstinputlisting[caption={Stick--slip egzakt szakaszokkal},label={lst:stick}]{codes/stick_slip_v3.m}
+
+\clearpage
+\section{Border-collision bifurcation egy szakaszonként lineáris leképezésben}\label{ap:border}
+Alkalmazás és magyarázat a főszöveg \pageref{use:border}. oldalán. 
+Fájl: \path{codes/border_collision_v3.m}.
+\lstinputlisting[caption={Border-collision bifurcation egy szakaszonként lineáris leképezésben},label={lst:border}]{codes/border_collision_v3.m}
+
+\clearpage
+\section{Súrlódási modell regularizálása}\label{ap:regularization}
+Alkalmazás és magyarázat a főszöveg \pageref{use:regularization}. oldalán. 
+Fájl: \path{codes/friction_regularization_v3.m}. Indítás: \lstinline|friction_regularization_v3|. A teljes program mindkét regularizációs példát numerikusan megoldja, analitikus ellenőrzést végez, majd a két összehasonlító ábrát PDF- és SVG-formátumban elmenti. Minden segédfüggvény ugyanebben a fájlban szerepel.
+\lstinputlisting[caption={Súrlódási modell regularizálása},label={lst:regularization}]{codes/friction_regularization_v3.m}
+
+\clearpage
+\section{Boundary equilibrium bifurcations}\label{ap:beb}
+Alkalmazás a főszöveg \pageref{use:beb}. oldalán. A program önállóan futtatható; PDF- és SVG-ábrát készít.
+\lstinputlisting[caption={Boundary equilibrium bifurcations}]{codes/boundary_equilibria_v3.m}
+
+\clearpage
+\section{A négy sliding geometria}\label{ap:sliding_types}
+Alkalmazás a főszöveg \pageref{use:sliding_types}. oldalán. A program önállóan futtatható; PDF- és SVG-ábrát készít.
+\lstinputlisting[caption={A négy sliding geometria}]{codes/sliding_geometries_v3.m}
+
+\clearpage
+\section{Grazing folytonos kontaktusmodellben}\label{ap:continuous_grazing}
+Alkalmazás a főszöveg \pageref{use:continuous_grazing}. oldalán. A program önállóan futtatható; PDF- és SVG-ábrát készít.
+\lstinputlisting[caption={Grazing folytonos kontaktusmodellben}]{codes/continuous_grazing_v3.m}
+
+\clearpage
+\section{További programok és ábragenerátorok}
+A korábbi légellenállásos lövedékpélda és a SLIP-peremfeladat további alkalmazásként megmaradt a \texttt{codes} könyvtárban. A SLIP-kód bemenete közös $[0,1]$ rács, nyolckomponensű pályabecslés, két időtartam és a fizikai paraméterstruktúra; nem bemenet nélküli demó.
+A \path{codes/practical_figures_v3.py} a \ref{sec:practical}. fejezet egzakt referenciaábráit állítja elő. A további ábragenerátorokat és futtatásukat a \path{codes/README.txt} sorolja fel.

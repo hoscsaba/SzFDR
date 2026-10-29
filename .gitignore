@@ -1,0 +1,16 @@
+# Local metadata and generated build intermediates
+.DS_Store
+*.aux
+*.log
+*.toc
+*.out
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.data.minted
+_minted*/
+*.asv
+__pycache__/
+*.pyc

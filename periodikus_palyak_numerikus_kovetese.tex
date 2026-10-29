@@ -1,3 +1,5 @@
+%!TEX root = SzFDR_jegyzet.tex
+
 \chapter{\label{sec:perpalyakovetes}Periodikus pályák numerikus követése}
 
 Dinamikai rendszerek vizsgálatánál kíváncsiak vagyunk a rendszer viselkedésére különböző paraméterkombinációk esetében is.
@@ -99,6 +101,123 @@ Az így keletkező extra egyenletek ugyanolyan formájúak, mint a \eqref{eq:psz
 \end{equation}
 Összességében ez a feladat egy négyváltozós nemlineáris gyökkeresési probléma az eredeti kétváltozós helyett.
 
+
+\section{Közönséges differenciálegyenletek peremérték-feladatai}
+
+A \emph{peremérték-feladat} (angolul: \emph{Boundary Value Problem}, röviden BVP) olyan közönséges differenciálegyenlet vagy egyenletrendszer megoldását keresi, amelyre a keresett függvény az integrálási tartomány \emph{mindkét végpontjában} megadott feltételeknek kell, hogy eleget tegyen.
+
+Legyen adott egy $n$-edrendű közönséges differenciálegyenlet az ismeretlen $y(x)$ függvényre:
+\[
+F\big(x, y, y', y'', \ldots, y^{(n)}\big) = 0, 
+\qquad x \in [a,b].
+\]
+A hozzá tartozó peremfeltételek általában az alábbi alakban adhatók meg:
+\[
+B_a\big(y(a), y'(a), \ldots, y^{(n-1)}(a)\big) = 0,
+\qquad
+B_b\big(y(b), y'(b), \ldots, y^{(n-1)}(b)\big) = 0,
+\]
+ahol $B_a$ és $B_b$ a bal és jobb határpontban előírt feltételeket jelölik.
+
+\begin{itemize}
+\item A \emph{kezdeti érték feladat} (IVP) esetén a megoldás és annak származtatott értékei egyetlen pontban (általában $x=a$-ban) ismertek. Amennyiben a feladat korrekt kitűzésű, a megoldás létezése és egyértelműsége biztosított.
+\item A \emph{peremérték-feladat} ezzel szemben olyan feladat, ahol az előírt feltételek különböző pontokban (pl. $x=a$ és $x=b$) adottak. A BVP tehát tipikusan „kétponti” feltételrendszert jelent, de többpontos általánosítás is lehetséges. Egy BVP-nek lehet nulla, egyetlen vagy végtelen sok megoldása.
+\end{itemize}
+
+\subsection{Megoldási módszerek}
+
+A peremérték-feladatok többsége nem oldható meg analitikusan, ezért numerikus módszereket alkalmazunk. A leggyakrabban használt eljárások:
+
+\begin{itemize}
+  \item \textbf{(Be)lövéses (shooting) módszer:}  
+  A BVP-t kezdeti érték feladattá alakítja úgy, hogy az ismeretlen kezdeti feltételeket iteratív módon módosítja, amíg a jobb oldali peremfeltétel teljesül.
+  
+  \item \textbf{Több(be)lövéses (multiple shooting) módszer:}  
+  A tartományt több szakaszra osztja, és minden szakaszon külön IVP-t old meg, majd a megoldásokat illeszti össze a csatlakozási feltételek alapján.
+  
+  \item \textbf{Kollokációs módszerek:}  
+  A keresett megoldást közelítő függvények (pl. polinomok, spline-ok) lineáris kombinációjaként írják fel, és az egyenletet diszkrét pontokban kényszerítik teljesülni.
+  
+  \item \textbf{Véges differencia (finite difference) módszer:}  
+  Az egyenletet differenciaközelítésekkel diszkretizálja, így egy algebrai egyenletrendszert kapunk a rácspontokban definiált $y_i$ értékekre.
+\end{itemize}
+
+
+\subsection{Példa: Ágyúlövés mint peremérték-probléma}
+
+Tegyük fel, hogy egy ágyúból kilőtt lövedékkel el kell találni egy célt, miközben a lövedékre csak a gravitáció és a légellenállás hat. A mozgás két dimenzióban írható le a következő változókkal:
+\[
+\mathbf{r}(t) = 
+\begin{pmatrix}
+x(t) \\[3pt]
+y(t)
+\end{pmatrix}, 
+\qquad 
+\mathbf{v}(t) = 
+\begin{pmatrix}
+v_x(t) \\[3pt]
+v_y(t)
+\end{pmatrix} = \dot{\mathbf{r}}(t).
+\]
+
+A gravitáció lefelé hat, nagysága $g$. A levegőellenállás erővektora a sebességgel ellentétes irányú:
+  \[
+  \mathbf{F}_{\mathrm{drag}} = -\frac{1}{2}\rho C_d A |\mathbf{v}|\, \mathbf{v},
+  \]
+  ahol $\rho$ a levegő sűrűsége, $C_d$ az ellenállási tényező, $A$ a keresztmetszet. Bevezetve $k = \tfrac{1}{2}\rho C_d A$, a mozgásegyenletek:
+  \[
+  \dot{\mathbf{v}} = 
+  -\frac{k}{m}|\mathbf{v}|\,\mathbf{v} + 
+  \begin{pmatrix}0\\[3pt]-g\end{pmatrix}.
+  \]
+A mozgásegyenletek komponensenként:
+
+\begin{align}
+\dot{x} &= v_x, \nonumber \\
+\dot{y} &= v_y,\nonumber\\
+\dot{v}_x &= -\frac{k}{m}\sqrt{v_x^2 + v_y^2}\,v_x,\nonumber\\
+\dot{v}_y &= -g - \frac{k}{m}\sqrt{v_x^2 + v_y^2}\,v_y.\nonumber
+\end{align}
+
+
+A lövedéket az $x=0$, $y=0$ pontból lőjük ki $t=0$ időpillanatban, és azt szeretnénk, hogy $t=T$ idő múlva a célpontba érkezzen, melynek koordinátái $(X_{\mathrm{cel}}, Y_{\mathrm{cel}})$.  
+A peremfeltételek tehát:
+
+\begin{equation}
+x(0)=0,\quad y(0)=0,\quad 
+x(T)=X_{\mathrm{target}},\quad y(T)=Y_{\mathrm{target}}.
+\end{equation}
+
+A kezdeti sebesség komponensei $\mathbf{v}(0) = (v_{x0}, v_{y0})$ ismeretlenek, ezeket kell úgy megválasztani, hogy a végső pozíció megfeleljen a célnak. A probléma tehát egy \emph{kétpontú peremérték-probléma (BVP)} a nemlineáris differenciálegyenlet-rendszerre.
+
+
+A számítás megkönnyítésére bevezethető egy dimenziótlan időparaméter $\tau = t/T$, ekkor:
+\[
+\frac{d\mathbf{y}}{d\tau} = 
+T\,F(\mathbf{y}(\tau)),
+\qquad
+\tau \in [0,1],
+\]
+ahol $\mathbf{y} = (x, y, v_x, v_y)^{\top}$, és a peremfeltételek:
+\[
+\mathbf{r}(0) = (0,0), \qquad 
+\mathbf{r}(1) = (X_{\mathrm{c}}, Y_{\mathrm{c}}).
+\]
+
+A BVP négy egyenletből áll és négy peremfeltétel adott, viszont van egy ismeretlen paraméter, amely a repülés időtartama. Fizikai intuicióval belátható, hogy pusztán a kezdeti- és végpont megadása mellet végtelenül sok megoldás lehetséges, ezért plusz egy paramétert meg kell adnunk, ez pedig a kezdeti sebesség lesz. Így 
+\begin{itemize}
+\item az egyenletek száma: $N_e=4$
+\item a szabad paraméterek száma $N_p=1$,
+\item így a szükséges peremfeltételek száma: $N_{bc}=N_e+N_p=5$
+\end{itemize}
+
+\lstinputlisting[
+  %style=matlabstyle,
+  caption={MATLAB kód: ballisztikai BVP megoldása \texttt{bvp5c}-vel.},
+  label={lst:bvp_cannon}
+]{codes/bvp_cannon.m}
+
+
 \section{Periodikus pályák peremérték-megfogalmazása}
 \label{sec:per_palya_perem_megfog}
 
@@ -134,7 +253,19 @@ Ekkor a \eqref{eq:EOM_altalanosan} egyenlet formája és a peremérték feladat 
 \label{eq:EOM_dimtalan}
 \end{equation}
 
-\textbf{Megjegyzés:} amennyiben a rendszerünk szakaszosan folytonos a \eqref{eq:EOM_dimtalan}-es problémát ki kell egészíteni:
+Láthatjuk, hogy az egyenletek száma megegyezik a peremfeltételek számával, ám egy ismeretlen paraméter $T$ is része a feladatnak. Így még egy peremfeltétel szükséges. Intuitív módon erre azért van szükség, mert a $\mathbf{z}(0) = \mathbf{z}(1)$ feltétel nem rögzíti a megoldás kezdetét (fázisát), így a fenti feladatnak végtelen sok megoldása van.
+
+A hiányzó egyenlet az ún. fázisfeltétel, amely "kiválasztja" azt az egyetlen megoldást, amellyel a feladat korrekt kitűzésű lesz. Számos lehetőség van, itt tekintsük azt az esetet, amikor egy paraméter változtatása mellett követkük a periodikus pályát; egy korábbi $\mu$ paraméterérték esetén már rendelkezésre áll egy pálya, amely $t=0$-ban az $z_p(0)$ értéket veszi fel (a $p$ index a previous-ra utal). Keressük a periodikus pályát $\mu+ \Delta \mu$ paraméterérték esetében. A fázisfeltétel:
+
+\begin{equation}
+0=\left< \mathbf{z}_p(0)-\mathbf{z}(0),\mathbf{F}(\mathbf{z}_p(0))\right>,
+\end{equation}
+
+\noindent ami azt jelenti, hogy a régi és új (ismeretlen) pályák $t=0$-t összekötő vektora merőleges legyen a (régi) pálya érintőjére.
+
+
+Amennyiben a rendszerünk szakaszosan folytonos, a \eqref{eq:EOM_dimtalan}-es problémát ki kell egészíteni azzal, hogy megfelelő időpontokban a pályának a kapcsolóvonalon kell elhelyezkednie.
+
 \begin{equation}
 \begin{matrix}
 \begin{cases}
@@ -155,9 +286,7 @@ H(\mathbf{z}_2(1)) = 0,
 ahol $H(\mathbf{z}(\tau))$  a kapcsolófelület.
 Ütköző rendszer esetében figyelembe kell venni a peremfeltételek felírásánál az ütközéskor létrejövő leképezést.
 
-Nézzük meg egy egyszerű \textbf{példa} peremérték-megfogalmazásának implementálását MATLAB környezetben!
-Peremérték feladatok megoldására a bvp beépített megoldókat lehet használni, esetünkben a bvp5c-vel fogunk dolgozni.
-A mechanikai rendszerünk a \ref{fig:bvp_tomeg_rugo}. ábrán látható.
+Nézzük meg egy egyszerű példát! A mechanikai rendszerünk a \ref{fig:bvp_tomeg_rugo}. ábrán látható.
 
 \begin{figure}[ht]
 	\centering

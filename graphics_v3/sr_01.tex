@@ -1,0 +1,7 @@
+\documentclass[tikz,border=3pt]{standalone}
+\usepackage{pgfplots}\pgfplotsset{compat=1.18}
+\begin{document}\begin{tikzpicture}\begin{axis}[width=9cm,height=6cm,grid=major,grid style={gray!15},tick label style={font=\fontsize{11}{13}\selectfont},label style={font=\fontsize{11}{13}\selectfont},xlabel={$w_k$},ylabel={$w_{k+1}$},xmin=-.25,xmax=.8,ymin=-.25,ymax=.8]
+\addplot[black,thick] table {sr_01_curve.dat};
+\addplot[gray,dashed,domain=-.25:.8] {x};
+\addplot[blue!65!black,thin] table {sr_01_web.dat};
+\end{axis}\end{tikzpicture}\end{document}

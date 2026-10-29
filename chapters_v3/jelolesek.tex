@@ -1,0 +1,52 @@
+\chapter*{Útmutató és jelölések}
+\addcontentsline{toc}{chapter}{Útmutató és jelölések}
+A jegyzet először a sima rendszerek stabilitását ismétli át, majd a kapcsolás, a sliding, az ütközés és a grazing hatását tárgyalja. Végül a periodikus pályák numerikus számítása és követése következik. Általános háttér: \cite{dib}.
+
+A folytonos idő szerinti deriváltat pont, a normált szegmensidő szerinti deriváltat vessző jelöli. A vektorok oszlopvektorok; a skalár függvény deriváltja sorvektor, $H_x=(\nabla H)^\mathsf T$. A transzponálást $\mathsf T$ jelöli.
+\begin{longtable}{@{}p{.22\textwidth}p{.72\textwidth}@{}}
+\toprule Jelölés & Jelentés\\\midrule\endhead
+$x,z$ & Állapotvektor; a mechanikai példákban pozíciókat és fizikai sebességeket tartalmaz.\\
+$F,f$ & Folytonos vektormező; a diszkrét modelleknél $f$ leképezést is jelöl, amit a szöveg külön megad.\\
+$\Phi(x,t)$ & A folytonos rendszer megoldásoperátora.\\
+$X(t),N_T$ & Fundamentális, illetve időbeli állapotátmeneti mátrix.\\
+$\mathcal M,\mathbf M$ & Egy periodikus pálya monodrómia-mátrixa.\\
+$\lambda$ & Az adott szövegkörnyezetben Jacobi-sajátérték vagy Floquet-multiplikátor; a stabilitási feltétel ezekre eltérő.\\
+$H,\Sigma$ & Eseményfüggvény és kapcsolófelület: $\Sigma=\{H=0\}$.\\
+$H_x,H_{xx}$ & Az eseményfüggvény sorvektor deriváltja és Hess-mátrixa.\\
+$v_H,a_H$ & $H$ első és második időderiváltja a sima pálya mentén.\\
+$R,Q_x$ & Reset leképezés és a közös időre vonatkozó korrekciós mátrix.\\
+$\Pi,P$ & Poincaré-metszet és visszatérési leképezés.\\
+$\sigma,r,\zeta$ & Falhelyzet, ütközési tényező és dimenziótlan viszkózus csillapítás.\\
+$T,T_1,T_2,Q$ & Teljes periódus, szegmensidők és a harmonikus példa negyed periódusa.\\
+$\mu,\Delta s$ & Fizikai vagy lokális modellparaméter és pseudo-arclength lépéshossz.\\
+$\nu,\chi$ & A skaláris square-root modell kontrakciós paramétere és a lokális távolságeltolás.\\
+$\hat E,\kappa$ & Fajlagos mechanikai energia és fajlagos lábmerevség: $[\hat E]=\mathrm{J/kg}$, $[\kappa]=\mathrm{s^{-2}}$.\\
+\bottomrule
+\end{longtable}
+A normálirányhoz kapcsolódó mennyiségek előjele a $H$ választásától függ. A grazing-fejezetben a megengedett tartomány $H>0$; a Filippov-fejezetben $F_1$ a $H>0$, $F_2$ a $H<0$ oldali mező.
+
+
+\section*{Egységes szakkifejezések}
+A speciális fogalmakra az alábbi angol elnevezéseket használjuk. A bevett magyar matematikai és mechanikai szavak (például egyensúly, kapcsolófelület, sajátérték, tapadás, csúszás) megmaradnak. A \emph{sliding} az állapot kapcsolófelületen végzett Filippov-mozgása; a mechanikai csúszás ettől külön fogalom. A szalagon mozgó test mechanikai tapadása például sliding mozgásnak felelhet meg az állapottérben.
+\begin{longtable}{@{}p{.39\textwidth}p{.55\textwidth}@{}}
+\toprule Egységes elnevezés & Jelentés a jegyzetben\\\midrule\endhead
+piecewise-smooth & Tartományonként sima rendszer; a kapcsolófelületen külön illesztési szabály lehet szükséges.\\
+sliding; sliding region & A kapcsolófelületen végzett mozgás, illetve ennek tartománya.\\
+attracting / repelling sliding & A két oldali mező a felület felé, illetve attól elfelé mutat.\\
+sliding mode control & A kapcsolófelület elérésére és az azon előírt dinamikára épülő szabályozás.\\
+stick--slip & Mechanikai tapadási és csúszási szakaszok váltakozása.\\
+grazing & Pálya és kapcsolófelület érintkezése nulla normálsebességgel.\\
+square-root mapping & Négyzetgyökös korrekciót tartalmazó leképezés.\\
+reset leképezés & Az esemény előtti állapotot az esemény utáni állapotba vivő $R$ leképezés.\\
+saltation-mátrix & Azonos referenciaidőre hozott perturbációk eseményen átvezető lineáris leképezése.\\
+discontinuity-induced bifurcation & A kapcsolási határ eléréséhez kapcsolódó bifurkációk gyűjtőneve.\\
+border-collision bifurcation & Diszkrét leképezés fixpontjának találkozása az ágakat elválasztó határral.\\
+boundary equilibrium bifurcation & Folytonos idejű rendszer egyensúlyának találkozása a kapcsolófelülettel.\\
+admissible / virtual equilibrium & A saját mező érvényességi tartományába eső / azon kívül fekvő egyensúlyjelölt.\\
+pseudo-equilibrium & A sliding dinamika egyensúlya.\\
+saddle-node / non-smooth fold & Két egyensúlyi ág találkozása sima, illetve a tárgyalt nemsima esetben; a két mechanizmust megkülönböztetjük.\\
+period-doubling bifurcation & Kétszeres periódusú ciklus megjelenésével járó bifurkáció.\\
+pseudo-arclength continuation & Megoldáság követése kibővített rendszerrel és érintőhöz kötött kiegészítő feltétellel.\\
+shooting / multiple shooting & Kezdetiérték-feladatok integrálására épülő peremfeladat-megoldás egy, illetve több szegmenssel.\\
+\bottomrule
+\end{longtable}

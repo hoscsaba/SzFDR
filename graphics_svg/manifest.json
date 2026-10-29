@@ -1,0 +1,242 @@
+[
+  {
+    "source": "graphics/munkahenger_fancy.png",
+    "svg": "munkahenger_fancy.svg",
+    "type": "embedded_png",
+    "sha256": "d27660dba2457a998c6f6ce2cd7fb91c6212a7a8ba317d9a057bbe03f368d3bd"
+  },
+  {
+    "source": "graphics/pszeudo_ivhossz_koriv.png",
+    "svg": "pszeudo_ivhossz_koriv.svg",
+    "type": "embedded_png",
+    "sha256": "9284ac5a831dbde1f075f0e09552466f72e77514695d6f9f1867415941a380f7"
+  },
+  {
+    "source": "graphics/pszeudo_ivhossz_szemleltet.png",
+    "svg": "pszeudo_ivhossz_szemleltet.svg",
+    "type": "embedded_png",
+    "sha256": "ff1e4c956bbaeed1098cc9d650feaf8536a686193ebe7f5681dc0d7fd775d4a2"
+  },
+  {
+    "source": "graphics/sliding_mode_control.png",
+    "svg": "sliding_mode_control.svg",
+    "type": "embedded_png",
+    "sha256": "0eb7136760f7b8047bbec663a17530ed230292db025f467f97446f7df5d4b656"
+  },
+  {
+    "source": "graphics/sliding_region_PELDA.png",
+    "svg": "sliding_region_PELDA.svg",
+    "type": "embedded_png",
+    "sha256": "a026550ed60ef0fb8ab5664094ca39399788f28a60b2f9b8e089c5cab31a8617"
+  },
+  {
+    "source": "graphics/tomeg_rugo_modell.png",
+    "svg": "tomeg_rugo_modell.svg",
+    "type": "embedded_png",
+    "sha256": "43221a06a55b7c815521d8a787c76be07eb923334465f852ec865717df0a407a"
+  },
+  {
+    "source": "graphics_v3/belt_model.tikz.tex",
+    "svg": "belt_model.svg",
+    "type": "vector",
+    "sha256": "703afe6a9e01c84da5aa274c67973dccb78af55e8825a5f687fe055672c77fcd"
+  },
+  {
+    "source": "graphics_v3/bif_015.pdf",
+    "svg": "bif_015.svg",
+    "type": "vector",
+    "sha256": "89a84553c6771a34eff3cc9f3f9fb5f6f2f0127ade20a0e754a228d471d96932"
+  },
+  {
+    "source": "graphics_v3/bif_06.pdf",
+    "svg": "bif_06.svg",
+    "type": "vector",
+    "sha256": "a0b5a8d9ba3b30aa74ac11f32baad903bb38157d2a7aa80bda962b9b7e502f96"
+  },
+  {
+    "source": "graphics_v3/bif_08.pdf",
+    "svg": "bif_08.svg",
+    "type": "vector",
+    "sha256": "606cd94f91d7d14e1289b01527e6e509e11a9eeb3a9771a654816d24be41f8d9"
+  },
+  {
+    "source": "graphics_v3/bilinear_bvp.pdf",
+    "svg": "bilinear_bvp.svg",
+    "type": "vector",
+    "sha256": "a3d852e1066cbbcae6cb016e57d12dc632b68a6fddd062c7f38080a3120af69e"
+  },
+  {
+    "source": "graphics_v3/border_collision.pdf",
+    "svg": "border_collision.svg",
+    "type": "vector",
+    "sha256": "cccd9e1fea435a706e9cc8d38b87ee2cf965cca17fb93d87ad585dd50d5b1682"
+  },
+  {
+    "source": "graphics_v3/boundary_equilibria.pdf",
+    "svg": "boundary_equilibria.svg",
+    "type": "vector",
+    "sha256": "866dec0bc6ca4bf76acff7cc270856368607c2169d88005987619c8652015dcb"
+  },
+  {
+    "source": "graphics_v3/circle_sliding_fields.pdf",
+    "svg": "circle_sliding_fields.svg",
+    "type": "vector",
+    "sha256": "97e459b408fcdbfbdf00f7b542b77368aedfded1ad417e64ead0e5c4be82d665"
+  },
+  {
+    "source": "graphics_v3/circle_switch_fields.pdf",
+    "svg": "circle_switch_fields.svg",
+    "type": "vector",
+    "sha256": "74db1845038220250360b36b246fe94c040fabe090e9f5aac4906d5869198b64"
+  },
+  {
+    "source": "graphics_v3/continuous_grazing.pdf",
+    "svg": "continuous_grazing.svg",
+    "type": "vector",
+    "sha256": "80c0b0431fa0006cc998ef21a9e189210481e375404c4656f3c45b3c65511e39"
+  },
+  {
+    "source": "graphics_v3/correction_timing.tikz.tex",
+    "svg": "correction_timing.svg",
+    "type": "vector",
+    "sha256": "5cd70145b35658425750fb04a49c1cdd2a4b0e30745cd21bb2c04167e5a38ae3"
+  },
+  {
+    "source": "graphics_v3/cycle_bifurcations.pdf",
+    "svg": "cycle_bifurcations.svg",
+    "type": "vector",
+    "sha256": "445fe077485b017919becaf966da2dc3c8a41b6cac257cf3a8a7ac7f22af8a8c"
+  },
+  {
+    "source": "graphics_v3/equilibrium_bifurcations.pdf",
+    "svg": "equilibrium_bifurcations.svg",
+    "type": "vector",
+    "sha256": "7ca9a152fea40eae2ecb83370b16034e8985eda23d6572a36f4ab81536b7dc20"
+  },
+  {
+    "source": "graphics_v3/friction_regularization.pdf",
+    "svg": "friction_regularization.svg",
+    "type": "vector",
+    "sha256": "649f3474c4c752c9a7d480297dfbf43360799c675b8f51aefbe92521ed8450ef"
+  },
+  {
+    "source": "graphics_v3/general_correction.tikz.tex",
+    "svg": "general_correction.svg",
+    "type": "vector",
+    "sha256": "f2c5faacf1f487f452aef286c2a0336245f9401478498b5f8ae33576697cf7e5"
+  },
+  {
+    "source": "graphics_v3/grazing_parabola.tikz.tex",
+    "svg": "grazing_parabola.svg",
+    "type": "vector",
+    "sha256": "f3b4268b6e376df0683d32dfa1258eecb5c2a9ccb9cb9591ff55bfab65e8de09"
+  },
+  {
+    "source": "graphics_v3/impact_phase.pdf",
+    "svg": "impact_phase.svg",
+    "type": "vector",
+    "sha256": "e73f7758f2bc7debca1e1ab29b2f748fb4a6a00eb5c67038bd572eb5da380767"
+  },
+  {
+    "source": "graphics_v3/impact_time.pdf",
+    "svg": "impact_time.svg",
+    "type": "vector",
+    "sha256": "a4c433c3f60b6efa8ed13c265b0c7999e28e3ca0a272b51beb9e2b5bd5656f07"
+  },
+  {
+    "source": "graphics_v3/mass_spring_bvp.pdf",
+    "svg": "mass_spring_bvp.svg",
+    "type": "vector",
+    "sha256": "f9342edc203631dabab744fb1d55fa535152f31d5bd8851da0743acec89fd5dc"
+  },
+  {
+    "source": "graphics_v3/phase_foci.pdf",
+    "svg": "phase_foci.svg",
+    "type": "vector",
+    "sha256": "6d4bb3fe1c57463d803a63c46f310d867cae7dbf36ae8b4b2616692722cc6b7b"
+  },
+  {
+    "source": "graphics_v3/phase_nodes.pdf",
+    "svg": "phase_nodes.svg",
+    "type": "vector",
+    "sha256": "fd4afd907c50a45e41d3f09952a09131b9d160ebbdedd99fd37efa19d09a5e5d"
+  },
+  {
+    "source": "graphics_v3/phase_saddle.pdf",
+    "svg": "phase_saddle.svg",
+    "type": "vector",
+    "sha256": "2a394bcd5197f11da13ffe9e6108c5c51a845b2653db809f16c7fc233cb59090"
+  },
+  {
+    "source": "graphics_v3/regularization_braking.pdf",
+    "svg": "regularization_braking.svg",
+    "type": "vector",
+    "sha256": "5db1efb7ba8a8e7e4eb515acf5e775ca5f83b33e5697f07a16e60b25a3de4bbd"
+  },
+  {
+    "source": "graphics_v3/regularization_creep.pdf",
+    "svg": "regularization_creep.svg",
+    "type": "vector",
+    "sha256": "950e25c3671b54db2f4a22edc91b12d06203895cfbe7675cb9cb4a8b41030c87"
+  },
+  {
+    "source": "graphics_v3/reset_geometry.tikz.tex",
+    "svg": "reset_geometry.svg",
+    "type": "vector",
+    "sha256": "9e2ab6fdda72ed0a9052cd72dcf00253d1f38815b8d423e32fa81ad283daf5cf"
+  },
+  {
+    "source": "graphics_v3/sliding_birth.pdf",
+    "svg": "sliding_birth.svg",
+    "type": "vector",
+    "sha256": "6d3ebae5e3fde9808542f00c83194c2dcaa734f0885610324dd88330946fd9f5"
+  },
+  {
+    "source": "graphics_v3/sliding_geometries.pdf",
+    "svg": "sliding_geometries.svg",
+    "type": "vector",
+    "sha256": "4f99d2d9573e35073ba8098e6d94543946bf6e94b071d6194c560157f1b1ab11"
+  },
+  {
+    "source": "graphics_v3/sliding_geometry.tikz.tex",
+    "svg": "sliding_geometry.svg",
+    "type": "vector",
+    "sha256": "44f2474d23b9fc2eb8c9341e06a07344cf366bead9b99dc421db19b48d745f06"
+  },
+  {
+    "source": "graphics_v3/spring_k.pdf",
+    "svg": "spring_k.svg",
+    "type": "vector",
+    "sha256": "242e09e94d312dd7854f8583ceff7fe7d5b4aa21e5703d7f4238b312ab46fce4"
+  },
+  {
+    "source": "graphics_v3/spring_m.pdf",
+    "svg": "spring_m.svg",
+    "type": "vector",
+    "sha256": "a5c5a6e3e2b7338fd4b30442f449b449e00d1e3ab2ca07637024bb8ea368630d"
+  },
+  {
+    "source": "graphics_v3/sr_01.pdf",
+    "svg": "sr_01.svg",
+    "type": "vector",
+    "sha256": "4404133c6db8d498c9ba4ce8efc2a01ed909cc767d526593f1679cdeda192e04"
+  },
+  {
+    "source": "graphics_v3/sr_m01.pdf",
+    "svg": "sr_m01.svg",
+    "type": "vector",
+    "sha256": "4656e0ea639ccc35bf8033a2132323e0933eca2b57ac616a50b776b4171b827d"
+  },
+  {
+    "source": "graphics_v3/stick_slip_cycle.pdf",
+    "svg": "stick_slip_cycle.svg",
+    "type": "vector",
+    "sha256": "9bf3bd79d0e4d7db42f5e7e1967dafe1ee46ceae51636a32f57e86c09c568cf3"
+  },
+  {
+    "source": "graphics_v3/zeno_ball.pdf",
+    "svg": "zeno_ball.svg",
+    "type": "vector",
+    "sha256": "b55f3688d6473e52b97cb9e7d95ba99087b3c1ae333244659b005ba77ef21474"
+  }
+]

@@ -1,0 +1,33 @@
+Chapter 3: all four drawings rebuilt as native TikZ, with fixed final 10.5 pt labels.
+No scaling or resizebox is applied to these drawings.
+Original raster images and the v2 document are preserved.
+
+Other figure layout adjustments:
+Square_root_lekepezes.tex: graphics/uv_w3_r095_omega0_ksi0.png: width=\linewidth,trim={17.998bp 1.500bp 33.746bp 16.498bp},clip
+Square_root_lekepezes.tex: graphics/uv_w276_r095_omega0_ksi0.png: width=\linewidth,trim={17.998bp 1.500bp 29.246bp 16.498bp},clip
+Square_root_lekepezes.tex: graphics/uv_w29_r095_omega0_ksi0.png: width=\linewidth,trim={17.998bp 1.500bp 33.746bp 16.498bp},clip
+Square_root_lekepezes.tex: graphics/ut_w3_r095_omega0_ksi0.png: width=\linewidth,trim={0.000bp 0.000bp 30.746bp 16.498bp},clip
+Square_root_lekepezes.tex: graphics/ut_w276_r095_omega0_ksi0.png: width=\linewidth,trim={0.000bp 0.000bp 30.746bp 16.498bp},clip
+Square_root_lekepezes.tex: graphics/ut_w29_r095_omega0_ksi0.png: width=\linewidth,trim={0.000bp 0.000bp 30.746bp 16.498bp},clip
+Filippov_rendszerek.tex: graphics/discontinuity_surface_fancy.png: width=0.5 \textwidth
+Filippov_rendszerek.tex: graphics/sliding_region_fancy.png: width=\textwidth
+Filippov_rendszerek.tex: graphics/munkahenger_fancy.png: width=0.5\textwidth
+Filippov_rendszerek.tex: graphics/sliding_region_PELDA.png: width=\textwidth,trim={0.000bp 0.000bp 4.499bp 0.750bp},clip
+Filippov_rendszerek.tex: graphics/sliding_mode_control.png: width=\textwidth,trim={0.000bp 2.250bp 5.249bp 2.250bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/pszeudo_ivhossz_szemleltet.png: width=.62\linewidth,trim={0.000bp 0.000bp 0.500bp 1.500bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/pszeudo_ivhossz_koriv.png: width=\linewidth,trim={22.497bp 3.000bp 56.243bp 22.497bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/tomeg_rugo_modell.png: width=.45\linewidth,trim={0.000bp 0.000bp 0.000bp 3.000bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/BVP_tomeg_rugo.png: width=\linewidth,trim={15.748bp 0.000bp 45.744bp 23.997bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/pszeudo_tomeg_rugo_k.png: width=\linewidth,trim={26.997bp 0.000bp 48.744bp 26.247bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/pszeudo_tomeg_rugo_m.png: width=\linewidth,trim={26.997bp 0.000bp 48.744bp 31.496bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/slip_mozgas.png: width=\linewidth,trim={1.200bp 1.200bp 23.402bp 9.001bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/pszeudo_SLIP_E.png: width=\linewidth,trim={14.998bp 20.247bp 26.997bp 31.496bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/pszeudo_SLIP_kappa.png: width=\linewidth,trim={5.999bp 22.497bp 17.998bp 31.496bp},clip
+periodikus_palyak_numerikus_kovetese.tex: graphics/pszeudo_SLIP_alpha.png: width=\linewidth,trim={5.999bp 22.497bp 44.244bp 30.746bp},clip
+
+Measured in the compiled PDF:
+fig:korr_idokorrekcio: printed page 14; diagram font 10.461 PDF points (= 10.5 TeX points).
+fig:501: printed page 15; diagram font 10.461 PDF points (= 10.5 TeX points).
+fig:502: printed page 16; diagram font 10.461 PDF points (= 10.5 TeX points).
+fig:503: printed page 17; diagram font 10.461 PDF points (= 10.5 TeX points).
+Mathematical subscripts use the standard smaller script font.
