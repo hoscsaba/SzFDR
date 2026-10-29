@@ -36,19 +36,9 @@ A pal_corrector_v3 egy összeállított reziduumot és két korábbi megoldást
 vár. A slip_bvp_v3 kezdeti pályabecslést és fizikai paramétereket igényel;
 ezek nem bemenet nélküli demóprogramok.
 
-TOVÁBBI, EREDETI PÉLDÁK
-    bvp_cannon_shooting
-    fun_mx_example
-    pseudoivhossz_pelda
-    Monodromia_mx_pelda
-
-A v3-ban a javított Monodromia_mx_pelda_v3 változatot használjuk.
-A pseudoivhossz_pelda az eredeti szemléltető program; a graphics mappában
-őrzött korábbi példánya mellett itt is elérhető.
-
 FELTÉTELEK
 MATLAB szükséges. A peremérték-megoldókhoz bvp5c/bvpinit/deval kell;
-a pal_corrector_v3 és a pseudoivhossz_pelda fsolve hívása Optimization
+a pal_corrector_v3 fsolve hívása Optimization
 Toolboxot igényel. Az ode45, odeset és fzero a MATLAB alapfüggvényei.
 A programok tényleges MATLAB-futtatását a célkörnyezetben külön is
 ellenőrizni kell.

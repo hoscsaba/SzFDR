@@ -12,7 +12,7 @@
     "sha256": "9284ac5a831dbde1f075f0e09552466f72e77514695d6f9f1867415941a380f7"
   },
   {
-    "source": "graphics/pszeudo_ivhossz_szemleltet.png",
+    "source": "graphics/pszeudo_ivhossz_szemleltet.PNG",
     "svg": "pszeudo_ivhossz_szemleltet.svg",
     "type": "embedded_png",
     "sha256": "ff1e4c956bbaeed1098cc9d650feaf8536a686193ebe7f5681dc0d7fd775d4a2"
@@ -30,7 +30,7 @@
     "sha256": "a026550ed60ef0fb8ab5664094ca39399788f28a60b2f9b8e089c5cab31a8617"
   },
   {
-    "source": "graphics/tomeg_rugo_modell.png",
+    "source": "graphics/tomeg_rugo_modell.PNG",
     "svg": "tomeg_rugo_modell.svg",
     "type": "embedded_png",
     "sha256": "43221a06a55b7c815521d8a787c76be07eb923334465f852ec865717df0a407a"

@@ -16,13 +16,8 @@
 %   impact_monodromy_v3      - Impact dynamics and state-transition matrix.
 %   pal_corrector_v3         - Generic pseudo-arclength corrector.
 %
-% Additional and original examples:
-%   bvp_cannon               - Ballistic BVP including drag.
+% Additional example:
 %   slip_bvp_v3              - Fixed-parameter, two-phase SLIP BVP.
-%   bvp_cannon_shooting      - Ballistic shooting formulation.
-%   fun_mx_example           - Fundamental solution matrix example.
-%   pseudoivhossz_pelda      - Original pseudo-arclength example.
-%   Monodromia_mx_pelda      - Original monodromy example.
 %
 % Each program includes its local or nested helper functions in the same file.
 % See README.txt for calling conventions and requirements.

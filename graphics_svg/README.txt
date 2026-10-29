@@ -8,7 +8,6 @@ Szükséges: latex, dvisvgm, NumPy, Matplotlib.
 Az új 6. fejezet ábrái külön: python3 codes/practical_figures_v3.py
 Az 1.1. szakasz ábrái külön: python3 codes/equilibrium_figures_v3.py
 A manifest.json a használt forrásokat és SVG-ellenőrzőösszegeket sorolja fel.
-Korábbi, már nem hivatkozott ábrák is maradhatnak ebben a könyvtárban.
 
 A 2.1. ábra külön: python3 codes/circle_switch_figure_v3.py
 
